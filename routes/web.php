@@ -18,4 +18,4 @@ Route::patch('/{id}/update', 'ClientesController@update');
 Route::post('/create', 'ClientesController@create');
 
 Route::post('/{id}/ordem/new', 'OrdensController@store');
-Route::get('/{id}/delete', 'OrdensController@destroy');
+Route::get('/{id}/delete/ordem', 'OrdensController@destroy');

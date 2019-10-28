@@ -78,7 +78,7 @@
 			<td>{{ mb_strimwidth($ordens['pago'], 0, 30, "...") }}</td>
 			<td>{{ mb_strimwidth($ordens['observacao'], 0, 30, "...") }}</td>
 			<td>
-			<a href="{{url("/".$ordens['id']."/delete")}}" class="btn btn-danger">Delete</a>
+			<a href="{{url("/".$ordens['id']."/delete/ordem")}}" class="btn btn-danger">Delete</a>
 			</td>
 		</tr>
 	@endforeach

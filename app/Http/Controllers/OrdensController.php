@@ -36,7 +36,7 @@ class OrdensController extends Controller
 
         	 switch ($e) {   
                 default:
-                    return redirect('laravel')->withErrors('Oops! Um erro aconteceu! Favor encaminhar o código para um técnico responsável. Código: '.$e->errorInfo['0'].'.');
+                    return redirect('/')->withErrors('Oops! Um erro aconteceu! Favor encaminhar o código para um técnico responsável. Código: '.$e->errorInfo['0'].'.');
                     break;
             }
         }

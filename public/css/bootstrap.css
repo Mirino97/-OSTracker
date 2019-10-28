@@ -50,6 +50,10 @@
   width: 100%;
 }
 
+#tableClientes {
+  width: 100%;
+}
+
 #tableClientes th {
   background-color: #33cc33;
   padding: 5px;
@@ -76,7 +80,7 @@ tr.spaceUnder>td {
   margin-top: 15px;
   margin-left: 15px;
   word-wrap: break-word;
-  max-width: 30px;
+  width: 100%;
 }
 
 #navbar {
