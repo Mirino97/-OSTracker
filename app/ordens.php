@@ -22,4 +22,8 @@ class ordens extends Model
     	return $this->hasOne('App\clientes');
     }
 
+    public function addOrdens($novaOrdem)
+    {
+        $this->create($novaOrdem);
+    }
 }

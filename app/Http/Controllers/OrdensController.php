@@ -21,13 +21,13 @@ class OrdensController extends Controller
         ]);
         try {
 
-            ordens::create($novaOrdem);
+            $ordens->addOrdens($novaOrdem);
 
         } catch (\Exception $e) {
         	 switch ($e) {   
 
                 default:
-                    return redirect('/')->withErrors('Oops! Um erro aconteceu! Favor encaminhar o código para um técnico responsável. Código: '.$e->errorInfo['0'].'.');
+                    return redirect('/')->withErrors('Oops! Um erro aconteceu! Favor encaminhar o código para um técnico responsável. Código: '.$e->getMessage().'.');
                     break;
             }
         }
