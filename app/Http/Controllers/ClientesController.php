@@ -8,11 +8,6 @@ use App\clientes;
 class ClientesController extends Controller
 {
 
-    public function index()
-    {
-        //
-    }
-
     public function create()
     {
 
@@ -46,18 +41,6 @@ class ClientesController extends Controller
 
         return redirect('/');
 
-    }
-
-
-    public function store(Request $request)
-    {
-        //
-    }
-
-
-    public function show($id)
-    {
-        //
     }
 
     public function edit($id)

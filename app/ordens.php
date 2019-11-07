@@ -21,4 +21,5 @@ class ordens extends Model
 
     	return $this->hasOne('App\clientes');
     }
+
 }

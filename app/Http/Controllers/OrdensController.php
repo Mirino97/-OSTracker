@@ -7,21 +7,10 @@ use App\ordens;
 
 class OrdensController extends Controller
 {
-    
-    public function index()
+
+    public function store(ordens $ordens)
     {
-        //
-    }
-
-    public function create()
-    {
-
-    }
-
-
-    public function store(Request $request)
-    {
-        $teste = request()->validate([
+        $novaOrdem = request()->validate([
 
         	'clientes_id' => 'required',
         	'servico' => 'required',
@@ -31,10 +20,12 @@ class OrdensController extends Controller
         	'observacao' => 'nullable',
         ]);
         try {
-            ordens::Create($teste);
-        } catch (\Exception $e) {
 
+            ordens::create($novaOrdem);
+
+        } catch (\Exception $e) {
         	 switch ($e) {   
+
                 default:
                     return redirect('/')->withErrors('Oops! Um erro aconteceu! Favor encaminhar o código para um técnico responsável. Código: '.$e->errorInfo['0'].'.');
                     break;

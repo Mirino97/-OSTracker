@@ -20,4 +20,6 @@ class clientes extends Model
 
     	return $this->hasMany('App\ordens');
     }
+
+    
 }
