@@ -33,6 +33,7 @@
         <div class="alert alert-danger">{{ $error }}</div>
     @endforeach
     @yield('listaOrdens')
+    @yield('editarOrdem')
 
 
 </body>

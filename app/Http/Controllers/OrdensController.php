@@ -43,15 +43,16 @@ class OrdensController extends Controller
         return view('/{id}/edit', compact('ordens'));
     }
 
-    public function edit($id)
+    public function edit(ordens $ordem)
     {
-
+        return view('editarOrdem', compact('ordem'));
     }
 
     // 
-    public function update(clientes $id)
+    public function update(ordens $ordem)
     {   
-
+        $ordem->update(request(['servico', 'dataServico', 'valor', 'pago', 'observacao']));
+        return redirect('/'. $ordem->clientes_id.'/edit');
     }
 
 

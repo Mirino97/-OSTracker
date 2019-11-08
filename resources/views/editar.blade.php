@@ -46,10 +46,10 @@
 
 			<input type="text" name="valor" placeholder="valor" value="" required>
 
-			<div>
-			<input type="radio" name="pago" value="sim" required> Sim <br>
-			<input type="radio" name="pago" value="nao" required> Não <br>
-			</div>
+			<select name="pago">
+			    <option value="nao" selected="nao">Não</option>
+			    <option value="sim">Sim</option>
+  			</select>
 
 			<textarea name="observacao" placeholder="Descrição do Serviço"></textarea>
 
@@ -72,7 +72,7 @@
 		</tr>
 	@foreach($cliente->ordens as $ordens)
 		<tr class="spaceUnder">
-			<td><a href="" class="btn bg-success" style="color: white">{{ mb_strimwidth($ordens['servico'], 0, 20, "...") }}</a></td>
+			<td><a href="/{{ $ordens->id }}/ordemEdit" class="btn bg-success" style="color: white">{{ mb_strimwidth($ordens['servico'], 0, 20, "...") }}</a></td>
 			<td>{{ mb_strimwidth($ordens['dataServico'], 0, 20, "...") }}</a></td>
 			<td>{{ mb_strimwidth($ordens['valor'], 0, 20, "...") }}</td>
 			<td>{{ mb_strimwidth($ordens['pago'], 0, 30, "...") }}</td>
