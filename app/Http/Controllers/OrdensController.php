@@ -39,7 +39,6 @@ class OrdensController extends Controller
 
     public function show(ordens $ordens)
     {	
-   
         return view('/{id}/edit', compact('ordens'));
     }
 
@@ -48,7 +47,6 @@ class OrdensController extends Controller
         return view('editarOrdem', compact('ordem'));
     }
 
-    // 
     public function update(ordens $ordem)
     {   
         $ordem->update(request(['servico', 'dataServico', 'valor', 'pago', 'observacao']));

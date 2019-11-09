@@ -60,6 +60,8 @@
 @endsection
 
 @section('listaOrdens')
+
+@if(count($cliente->ordens) > 0)
 <div id="lista">
 	<table  id="tableClientes" class="container pt-5 pb-5" style="border: 1px solid black">
 		<tr>
@@ -84,4 +86,8 @@
 	@endforeach
 	</table>
 </div>
+
+@else
+	<h1>NÃO EXISTEM ORDEMS PARA DISPLAYAR</h1>
+@endif
 @endsection

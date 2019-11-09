@@ -34,7 +34,7 @@ class ClientesController extends Controller
                 break;
                     
                 default:
-                return redirect('/')->withErrors('Oops! Um erro aconteceu! Favor encaminhar o código para um técnico responsável. Código: '.$e->errorInfo['0'].'.');
+                return redirect('/')->withErrors('Oops! Um erro aconteceu! Favor encaminhar o código para um técnico responsável. Código: '.$e->getMessage().'.');
             break;
             }
         }
@@ -42,14 +42,13 @@ class ClientesController extends Controller
         return redirect('/');
 
     }
-
-    public function edit($id)
+            // Why can't this be $cliente direto?
+    public function edit(clientes $id)
     {
-        $cliente = clientes::find($id);
+        $cliente = $id;
         return view('editar', compact('cliente'));
     }
 
-    // 
     public function update(clientes $id)
     {   
         $id->update(request(['nome', 'telefone', 'endereco', 'email', 'cnpj']));
