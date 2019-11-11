@@ -41,13 +41,41 @@
   width: 100%;
 }
 
+.navBarButton {
+  border: solid 1px black;
+  height: 30px;
+  width: 100%;
+}
+
+.containerBody {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 150px auto;
+  grid-template-rows: 50px auto;
+  grid-template-areas: 
+    "header header"
+    "sideNav main";
+}
+
+.sideNav {
+  grid-area: sideNav;
+  height: 100vh;
+}
+
+.main {
+  grid-area: main;
+}
+
+.header {
+  grid-area: header;
+}
+
 .formOrdem {
   flex-grow: 3;
 }
 
 .formOrdem1 {
   display: flex;
-  width: 100%;
 }
 
 #tableClientes {
@@ -76,11 +104,9 @@ tr.spaceUnder>td {
 }
 
 #lista {
-  flex-grow: 3;
   margin-top: 15px;
   margin-left: 15px;
   word-wrap: break-word;
-  width: 100%;
 }
 
 #navbar {
@@ -125,9 +151,6 @@ tr.spaceUnder>td {
   line-height: 10px; /* Used to put the horizontal text where you want */
 }
 
-.button:hover {
-  background-color: white;
-}
 
 .enveloper {
   display: flex;
@@ -153,6 +176,8 @@ html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  width: 100%;
+  height: 100%;
 }
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
