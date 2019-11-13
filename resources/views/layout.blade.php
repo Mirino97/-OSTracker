@@ -9,7 +9,7 @@
     <header class="container">
         <div class="row pt-3 pb-3 justify-content-between bg-light">
             <div class="col-2">logo</div>
-            <div class="col-2">menu usuario</div>
+            <div class="col-2 text-right">menu usuario</div>
         </div>
     </header>
     <section class="container mt-3">
@@ -32,6 +32,7 @@
                 <hr>
                 @yield('lista')
                 @yield('ordens')
+                <hr>
                 @foreach ($errors->all() as $error)
                 <div class="alert alert-danger">{{ $error }}</div>
                 @endforeach

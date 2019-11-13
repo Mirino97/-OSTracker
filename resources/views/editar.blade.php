@@ -52,29 +52,29 @@
 @endsection
 @section('listaOrdens')
 @if(count($cliente->ordens) > 0)
-<div id="lista">
-	<table  id="tableClientes" class="container pt-5 pb-5" style="border: 1px solid black">
-		<tr>
-			<th scope="col">Serviço</th>
-			<th scope="col">Data</th>
-			<th scope="col">Valor</th>
-			<th scope="col">Pago</th>
-			<th scope="col">Observações</th>
-			<th scope="col"></th>
-		</tr>
-		@foreach($cliente->ordens as $ordens)
-		<tr class="spaceUnder">
-			<td><a href="/{{ $ordens->id }}/ordemEdit" class="btn bg-success" style="color: white">{{ mb_strimwidth($ordens['servico'], 0, 20, "...") }}</a></td>
-			<td>{{ mb_strimwidth($ordens['dataServico'], 0, 20, "...") }}</a></td>
-			<td>{{ mb_strimwidth($ordens['valor'], 0, 20, "...") }}</td>
-			<td>{{ mb_strimwidth($ordens['pago'], 0, 30, "...") }}</td>
-			<td>{{ mb_strimwidth($ordens['observacao'], 0, 30, "...") }}</td>
-			<td>
-				<a href="{{url("/".$ordens['id']."/delete/ordem")}}" class="btn btn-danger">Delete</a>
-			</td>
-		</tr>
-		@endforeach
-	</table>
+
+<table class="w-100">
+	<tr class="bg-light">
+		<th scope="col" class="p-2 text-center">Serviço</th>
+		<th scope="col" class="p-2 text-center">Data</th>
+		<th scope="col" class="p-2 text-center">Valor</th>
+		<th scope="col" class="p-2 text-center">Pago</th>
+		<th scope="col" class="p-2">Observações</th>
+		<th scope="col" class="p-2"></th>
+	</tr>
+	@foreach($cliente->ordens as $ordens)
+	<tr>
+		<td class="p-2"><a href="/{{ $ordens->id }}/ordemEdit" class="w-100 btn bg-success" style="color: white">{{ mb_strimwidth($ordens['servico'], 0, 20, "...") }}</a></td>
+		<td class="p-2 text-center">{{ mb_strimwidth($ordens['dataServico'], 0, 20, "...") }}</a></td>
+		<td class="p-2 text-center">{{ mb_strimwidth($ordens['valor'], 0, 20, "...") }}</td>
+		<td class="p-2 text-center">{{ mb_strimwidth($ordens['pago'], 0, 30, "...") }}</td>
+		<td class="p-2">{{ mb_strimwidth($ordens['observacao'], 0, 30, "...") }}</td>
+		<td class="p-2">
+			<a href="{{url("/".$ordens['id']."/delete/ordem")}}" class="w-100 btn btn-danger">Delete</a>
+		</td>
+	</tr>
+	@endforeach
+</table>
 </div>
 @else
 <h1>NÃO EXISTEM ORDEMS PARA DISPLAYAR</h1>

@@ -24,8 +24,8 @@
 <table class="w-100">
 	<tr class="bg-light">
 		{{-- <th scope="col" class="p-2">Id</th> --}}
-		<th scope="col" class="p-2">Nome</th>
-		<th scope="col" class="p-2">Telefone</th>
+		<th scope="col" class="p-2 text-center">Nome</th>
+		<th scope="col" class="p-2 text-center">Telefone</th>
 		<th scope="col" class="p-2">Endereco</th>
 		<th scope="col" class="p-2">E-mail</th>
 		{{-- <th scope="col" class="p-2">CNPJ</th> --}}
