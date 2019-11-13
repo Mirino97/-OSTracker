@@ -8,8 +8,8 @@
 <body>
     <header class="container">
         <div class="row pt-3 pb-3 justify-content-between bg-light">
-            <div class="col-2">logo</div>
-            <div class="col-2 text-right">menu usuario</div>
+            <div class="col-2 h1">OSTracker</div>
+            <div class="col-2 text-right align-self-center">Olá, {usuario}</div>
         </div>
     </header>
     <section class="container mt-3">
