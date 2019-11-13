@@ -16,7 +16,8 @@ class ClientesController extends Controller
             'nome' => 'required',
             'telefone' => 'required',
             'endereco' => 'required',
-            'email' => ['required', 'email:rfc'],
+            'email' => 'required',
+            // 'email' => ['required', 'email:rfc'],
             'cnpj' => 'required'
 
         ]);
@@ -32,10 +33,10 @@ class ClientesController extends Controller
                 case ($e->errorInfo['0'] === '23000'):
                 return redirect('/')->withErrors('Este e-mail já está cadastrado! Código do erro: '.$e->errorInfo['0']);
                 break;
-                    
+                
                 default:
                 return redirect('/')->withErrors('Oops! Um erro aconteceu! Favor encaminhar o código para um técnico responsável. Código: '.$e->getMessage().'.');
-            break;
+                break;
             }
         }
 

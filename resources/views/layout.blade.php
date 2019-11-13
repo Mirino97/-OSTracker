@@ -1,54 +1,45 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>OsTracker</title>
     <link rel="stylesheet" type="text/css" href="{{ url('/css/bootstrap.css') }}" />
 </head>
 <body>
-
-<div class="container-fluid">
-    <div class="row" style="height: 50px;">
-        <div class="col" style="background-color: red;">.col</div>
-    </div>
-    <div class="row">
-        <div class="row" style="height: 93.7vh; width: 200px;">
-            <div class="col" style="background-color: purple; height: 100%">
-                <div class="container-fluid" style="height: 100%; width: 100%; padding: 0px;">
-                    <div class="col">
-                        <div class="row">
-                            <a href="" class="navBarButton">TESTE</a>
-                        </div>
-                        <div class="row">
-                            <a href="" class="navBarButton">TESTE</a>
-                        </div>
-                        <div class="row">
-                            <a href="" class="navBarButton">TESTE</a>
-                        </div>
-                        <div class="row">
-                            <a href="" class="navBarButton">TESTE</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <header class="container">
+        <div class="row pt-3 pb-3 justify-content-between bg-light">
+            <div class="col-2">logo</div>
+            <div class="col-2">menu usuario</div>
         </div>
-        <div class="col">
-            <div class="row justify-content-center" style="margin: 0px"> 
+    </header>
+    <section class="container mt-3">
+        <div class="row">
+            <div class="col-3">
+                <nav>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a class="" href="/">cliente</a></li>
+                        <li class="mb-2"><a class="" href="/">link</a></li>
+                        <li class="mb-2"><a class="" href="/">link</a></li>
+                        <li class="mb-2"><a class="" href="/">link</a></li>
+                        <li class="mb-2"><a class="" href="/">link</a></li>
+                        <li class="mb-2"><a class="" href="/">link</a></li>
+                        <li class="mb-2"><a class="" href="/">link</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-9">
                 @yield('content')
-            </div>
-
-            <div class="row justify-content-center" style="margin: 0px">
+                <hr>
                 @yield('lista')
+                @yield('ordens')
+                @foreach ($errors->all() as $error)
+                <div class="alert alert-danger">{{ $error }}</div>
+                @endforeach
+                @yield('listaOrdens')
+                @yield('editarOrdem')
             </div>
-            @yield('ordens')
-            @foreach ($errors->all() as $error)
-            <div class="alert alert-danger">{{ $error }}</div>
-            @endforeach
-            @yield('listaOrdens')
-            @yield('editarOrdem')
         </div>
-    </div>
-     
-</div>
-
+    </section>
+    <footer class="container"></footer>
 </body>
 </html>
