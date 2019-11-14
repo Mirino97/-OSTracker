@@ -1,0 +1,1845 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"content",
+				"align-content-center \tBootstrap 4 Class"
+			],
+			[
+				"self",
+				"align-self-center \tBootstrap 4 Class"
+			],
+			[
+				"bor",
+				"border-0 \tBootstrap 4 Class"
+			],
+			[
+				"mb",
+				"mb-2 \tBootstrap 4 Class"
+			],
+			[
+				"border",
+				"border-dark \tBootstrap 4 Class"
+			],
+			[
+				"btn",
+				"btn-link \tBootstrap 4 Class"
+			],
+			[
+				"lis",
+				"list-unstyled \tBootstrap 4 Class"
+			],
+			[
+				"white",
+				"text-white \tBootstrap 4 Class"
+			],
+			[
+				"bg",
+				"bg-light \tBootstrap 4 Class"
+			],
+			[
+				"bg-in",
+				"bg-warning \tBootstrap 4 Class"
+			],
+			[
+				"jus",
+				"justify-content-end \tBootstrap 4 Class"
+			],
+			[
+				"border-",
+				"border-danger \tBootstrap 4 Class"
+			],
+			[
+				"round",
+				"rounded \tBootstrap 4 Class"
+			],
+			[
+				"di",
+				"d-inline \tBootstrap 4 Class"
+			],
+			[
+				"align",
+				"align-self-center \tBootstrap 4 Class"
+			],
+			[
+				"h",
+				"h-100 \tBootstrap 4 Class"
+			],
+			[
+				"bacg",
+				"background-repeat\tproperty"
+			],
+			[
+				"Redirec",
+				"Redirect::back\tRedirect to URL, Route or Controller"
+			],
+			[
+				"dados",
+				"dados_k"
+			],
+			[
+				"back",
+				"background\tproperty"
+			],
+			[
+				"que",
+				"querySelector\t( selectors: DOMString ): Element Element"
+			],
+			[
+				"clieteh",
+				"clienteshub"
+			],
+			[
+				"pt",
+				"pt-0 \tBootstrap 4 Class"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"wind",
+				"window"
+			],
+			[
+				"backimg",
+				"backgroundImage\t Style CSS"
+			],
+			[
+				"si",
+				"sImg"
+			],
+			[
+				"for",
+				"forEach"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"backgrounmg",
+				"backgroundImage\t Style CSS"
+			],
+			[
+				"backima",
+				"backgroundImage\t Style CSS"
+			],
+			[
+				"json",
+				"JSON_parse\t( json: string ): any JSON"
+			],
+			[
+				"backim",
+				"backgroundImage\t Style CSS"
+			],
+			[
+				"size",
+				"sizeImg"
+			],
+			[
+				"querysel",
+				"querySelectorAll\t( selectors: DOMString ): NodeList Element"
+			],
+			[
+				"quer",
+				"queryAll\t( relativeSelectors: DOMString ): Elements Element"
+			],
+			[
+				"padding",
+				"padding-top\tproperty"
+			],
+			[
+				"tex",
+				"text-center \tBootstrap 4 Class"
+			],
+			[
+				"m",
+				"m-2 \tBootstrap 4 Class"
+			],
+			[
+				"base",
+				"base64_encode"
+			],
+			[
+				"store",
+				"storage_path\tL5 Storage Path"
+			],
+			[
+				"col-sm",
+				"col-sm-6 \tBootstrap 4 Class"
+			],
+			[
+				"conten",
+				"align-content-center \tBootstrap 4 Class"
+			],
+			[
+				"fle",
+				"flex-row \tBootstrap 4 Class"
+			],
+			[
+				"margin-",
+				"margin-top\tproperty"
+			],
+			[
+				"margin",
+				"margin-top\tproperty"
+			],
+			[
+				"pb",
+				"pb-2 \tBootstrap 4 Class"
+			],
+			[
+				"backimage",
+				"backgroundImage"
+			],
+			[
+				"op",
+				"opacity\t Style CSS"
+			],
+			[
+				"opacit",
+				"opacity\t = '' Style CSS"
+			],
+			[
+				"backpo",
+				"backgroundPosition\t = 'top right' Style CSS"
+			],
+			[
+				"text-da",
+				"text-dark \tBootstrap 4 Class"
+			],
+			[
+				"hiso",
+				"history"
+			],
+			[
+				"bloc",
+				"d-block \tBootstrap 4 Class"
+			],
+			[
+				"w",
+				"w-25 \tBootstrap 4 Class"
+			],
+			[
+				"danger",
+				"bg-danger \tBootstrap 4 Class"
+			],
+			[
+				"fix",
+				"fixed-bottom \tBootstrap 4 Class"
+			],
+			[
+				"mt",
+				"mt-5 \tBootstrap 4 Class"
+			],
+			[
+				"func",
+				"function"
+			],
+			[
+				"settime",
+				"setTimeout\t( handler: any, timeout?: long, arguments_..: any ): long Window"
+			],
+			[
+				"body",
+				"body"
+			],
+			[
+				"sc",
+				"scrollTop"
+			],
+			[
+				"str_re",
+				"str_replace"
+			],
+			[
+				"parseint",
+				"parseInt"
+			],
+			[
+				"subs",
+				"substring"
+			],
+			[
+				"repla",
+				"replace"
+			],
+			[
+				"console",
+				"console_log"
+			],
+			[
+				"ite",
+				"itemGal"
+			],
+			[
+				"preve",
+				"preventDefault\t(): void Event"
+			],
+			[
+				"class",
+				"classList"
+			],
+			[
+				"prop",
+				"prop-a-top"
+			],
+			[
+				"clas",
+				"classList\t: DOMTokenList Element"
+			],
+			[
+				"styl",
+				"style"
+			],
+			[
+				"dis",
+				"display\t = 'block' Style CSS"
+			],
+			[
+				"backco",
+				"backgroundColor\t Style CSS"
+			],
+			[
+				"zin",
+				"zIndex\t Style CSS"
+			],
+			[
+				"top",
+				"top\t = '' Style CSS"
+			],
+			[
+				"hei",
+				"height"
+			],
+			[
+				"po",
+				"position\t = 'relative' Style CSS"
+			],
+			[
+				"toggle",
+				"toggleFoco"
+			],
+			[
+				"fun",
+				"Function\t( paramsAndBody_..: string ): Function Function"
+			],
+			[
+				"text",
+				"text-gray-dark \tBootstrap 4 Class"
+			],
+			[
+				"center",
+				"justify-content-center \tBootstrap 4 Class"
+			],
+			[
+				"items",
+				"align-items-center \tBootstrap 4 Class"
+			],
+			[
+				"sel",
+				"align-self-center \tBootstrap 4 Class"
+			],
+			[
+				"boder",
+				"border\t = '' Style CSS"
+			],
+			[
+				"style",
+				"style"
+			],
+			[
+				"foto",
+				"foto-galeria"
+			],
+			[
+				"url",
+				"URL\t: DOMString Document"
+			],
+			[
+				"consol",
+				"console_log"
+			],
+			[
+				"appen",
+				"appendChild"
+			],
+			[
+				"query",
+				"querySelector\t( selectors: DOMString ): Element (Selectors) Element"
+			],
+			[
+				"create",
+				"createElement\t( localName: DOMString ): Element Document"
+			],
+			[
+				"append",
+				"appendChild\t( node: Node ): Node Node"
+			],
+			[
+				"trans",
+				"transform\tproperty"
+			],
+			[
+				"item",
+				"align-items-center \tBootstrap 4 Class"
+			],
+			[
+				"fixed",
+				"fixed-top \tBootstrap 4 Class"
+			],
+			[
+				"bord",
+				"border \tBootstrap 4 Class"
+			],
+			[
+				"te",
+				"text-center \tBootstrap 4 Class"
+			],
+			[
+				"fi",
+				"fixed-top \tBootstrap 4 Class"
+			],
+			[
+				"backg",
+				"background-color\tproperty"
+			],
+			[
+				"p",
+				"p-3 \tBootstrap 4 Class"
+			],
+			[
+				"paddi",
+				"padding\tproperty"
+			],
+			[
+				"rounde",
+				"rounded-circle \tBootstrap 4 Class"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"ml",
+				"ml-3 \tBootstrap 4 Class"
+			],
+			[
+				"tex-",
+				"text-center \tBootstrap 4 Class"
+			],
+			[
+				"ro",
+				"rounded-0 \tBootstrap 4 Class"
+			],
+			[
+				"backo",
+				"background-repeat\tproperty"
+			],
+			[
+				"pt-",
+				"pt-4 \tBootstrap 4 Class"
+			],
+			[
+				"col-md",
+				"col-md-12 \tBootstrap 4 Class"
+			],
+			[
+				"inputreal",
+				"inputReal"
+			],
+			[
+				"Input",
+				"inputReal"
+			],
+			[
+				"input",
+				"inputFake"
+			],
+			[
+				"cur",
+				"cursor\tproperty"
+			],
+			[
+				"align-con",
+				"align-content-center \tBootstrap 4 Class"
+			],
+			[
+				"da",
+				"bg-danger \tBootstrap 4 Class"
+			],
+			[
+				"text-",
+				"text-shadow\tproperty"
+			],
+			[
+				"seft",
+				"align-self-center \tBootstrap 4 Class"
+			],
+			[
+				"roun",
+				"rounded \tBootstrap 4 Class"
+			],
+			[
+				"ju",
+				"justify-content-center \tBootstrap 4 Class"
+			],
+			[
+				"align-item",
+				"align-items-center \tBootstrap 4 Class"
+			],
+			[
+				"align-co",
+				"align-content-center \tBootstrap 4 Class"
+			],
+			[
+				"d",
+				"d-flex \tBootstrap 4 Class"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"campo",
+				"campos_anuncie1"
+			],
+			[
+				"roud",
+				"rounded-bottom \tBootstrap 4 Class"
+			],
+			[
+				"pl",
+				"pl-4 \tBootstrap 4 Class"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "resources/views/layout.blade.php",
+			"settings":
+			{
+				"buffer_size": 1817,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/editarOrdem.blade.php",
+			"settings":
+			{
+				"buffer_size": 1468,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/index.blade.php",
+			"settings":
+			{
+				"buffer_size": 2221,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/editar.blade.php",
+			"settings":
+			{
+				"buffer_size": 3777,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": ".env",
+			"settings":
+			{
+				"buffer_size": 794,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"lorem",
+				"LoremIpsum: (5) a bit"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"blade",
+				"Set Syntax: Laravel Blade"
+			],
+			[
+				"trim",
+				"Trimmer: Trim trailing whitespace."
+			],
+			[
+				"trim\t",
+				"Trimmer: Replace smart characters."
+			],
+			[
+				"place",
+				"Snippet: Image - Placeholder"
+			],
+			[
+				"bash",
+				"Set Syntax: Bourne Again Shell (bash)"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"image",
+				"Snippet: Image - Placeholder"
+			],
+			[
+				"folder",
+				"Project: Add Folder"
+			],
+			[
+				"lore",
+				"LoremIpsum: (15) some"
+			],
+			[
+				"plac",
+				"Snippet: Image - Placeholder"
+			],
+			[
+				"placeho",
+				"Snippet: Image - Placeholder"
+			],
+			[
+				"reinde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"re",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"laravel",
+				"Set Syntax: Laravel Blade"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"inde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"bas",
+				"Set Syntax: Bourne Again Shell (bash)"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"pyth",
+				"Set Syntax: Python"
+			],
+			[
+				"listp",
+				"Package Control: List Packages"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"color",
+				"Color Highlight: Restore Color Scheme"
+			],
+			[
+				"BASH",
+				"Set Syntax: Bourne Again Shell (bash)"
+			],
+			[
+				"add",
+				"Project: Add Folder"
+			],
+			[
+				"mini",
+				"Minify Javascript/CSS"
+			],
+			[
+				"composer",
+				"Composer: Dump Autoload"
+			],
+			[
+				"reinden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"serve",
+				"Laravel Artisan 5: Serve"
+			],
+			[
+				"confi",
+				"Laravel Artisan 5: Config:Clear"
+			],
+			[
+				"config",
+				"Laravel Artisan 5: Config:Cache"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"commen",
+				"Trimmer: Remove comments."
+			],
+			[
+				"calc",
+				"Calculate"
+			],
+			[
+				"ca",
+				"Calculate"
+			],
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"pa",
+				"Package Control: Disable Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 150.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/marneimax/Documents/ag3/ostracker",
+		"/home/marneimax/Documents/ag3/ostracker/app",
+		"/home/marneimax/Documents/ag3/ostracker/app/Http",
+		"/home/marneimax/Documents/ag3/ostracker/app/Http/Controllers",
+		"/home/marneimax/Documents/ag3/ostracker/database",
+		"/home/marneimax/Documents/ag3/ostracker/database/migrations",
+		"/home/marneimax/Documents/ag3/ostracker/resources",
+		"/home/marneimax/Documents/ag3/ostracker/resources/views",
+		"/home/marneimax/Documents/ag3/ostracker/routes"
+	],
+	"file_history":
+	[
+		"/home/marneimax/Documents/ag3/ostracker/app/Http/Controllers/ClientesController.php",
+		"/home/marneimax/Documents/ag3/ostracker/composer.json",
+		"/home/marneimax/Documents/ag3/classy/app/Http/Controllers/HomeController.php",
+		"/home/marneimax/Documents/ag3/classy/resources/views/home.blade.php",
+		"/home/marneimax/Documents/ag3/classy/public/css/estilo.css",
+		"/home/marneimax/Documents/ag3/classy/resources/views/servicos.blade.php",
+		"/home/marneimax/Documents/ag3/classy/resources/views/clientes.blade.php",
+		"/home/marneimax/Documents/ag3/classy/resources/views/layout.blade.php",
+		"/home/marneimax/Documents/ag3/classy/resources/views/cli/digitalclassy.blade.php",
+		"/home/marneimax/Documents/ag3/classy/app/Http/Controllers/ClassyController.php",
+		"/home/marneimax/Documents/ag3/classy/app/Http/Controllers/ServicosController.php",
+		"/home/marneimax/Documents/ag3/classy/app/Http/Controllers/ContatoController.php",
+		"/home/marneimax/Documents/ag3/classy/resources/views/galeria.blade.php",
+		"/home/marneimax/Documents/ag3/classy/resources/views/pedir-orcamento.blade.php",
+		"/home/marneimax/Documents/ag3/classy/resources/views/galeria-sobre.blade.php",
+		"/home/marneimax/Documents/ag3/classy/resources/views/cli/alphatecinformatica.blade.php",
+		"/home/marneimax/Documents/ag3/classy/resources/views/components/header.blade.php",
+		"/home/marneimax/Documents/ag3/classy/resources/views/components/metas.blade.php",
+		"/home/marneimax/Documents/ag3/classydog/resources/views/cli/gustavocarvalho.blade.php",
+		"/home/marneimax/Documents/ag3/classydog/resources/views/clientes.blade.php",
+		"/home/marneimax/Documents/ag3/classydog/resources/views/components/metas.blade.php",
+		"/home/marneimax/Documents/ag3/classydog/node_modules/postcss-discard-overridden/metadata.toml",
+		"/home/marneimax/Documents/ag3/classydog/resources/views/components/header.blade.php",
+		"/home/marneimax/Downloads/prepare-videochat.sh",
+		"/home/marneimax/Desktop/Exe/CLIPP01082018.BAK",
+		"/home/marneimax/Desktop/Exe/CLIPP01032019.C4B",
+		"/home/marneimax/Desktop/papomktfb",
+		"/home/marneimax/Documents/ag3/classydog/resources/views/cli/verderiproducoes.blade.php",
+		"/home/marneimax/Documents/ag3/classydog/app/Http/Controllers/HomeController.php",
+		"/home/marneimax/Documents/ag3/classydog/resources/views/sobre.blade.php",
+		"/home/marneimax/Desktop/convert",
+		"/home/marneimax/Documents/ag3/classydog/resources/views/servicos.blade.php",
+		"/home/marneimax/Documents/ag3/classydog/resources/views/layout.blade.php",
+		"/home/marneimax/Documents/ag3/classydog/resources/views/galeria.blade.php",
+		"/home/marneimax/Documents/ag3/classydog/app/Http/Controllers/ServicosController.php",
+		"/home/marneimax/Documents/ag3/classydog/resources/views/home.blade.php",
+		"/home/marneimax/Desktop/seo.html",
+		"/home/marneimax/Documents/ag3/classydog/resources/views/pedir-orcamento.blade.php",
+		"/home/marneimax/Documents/ag3/classydog/public/css/estilo.css",
+		"/home/marneimax/Documents/ag3/classydog/routes/web.php",
+		"/home/marneimax/Documents/ag3/classydog/resources/views/components/call-orcamento.blade.php",
+		"/home/marneimax/Documents/ag3/classydog/resources/views/mais-depoimentos.blade.php",
+		"/home/marneimax/Desktop/motog4xt1626",
+		"/home/marneimax/Documents/ag3/classydog.com.br.local/public_html/resources/views/cli/multiplaeventos.blade.php",
+		"/home/marneimax/Documents/ag3/classydog.com.br.local/public_html/resources/views/cli/gustavocarvalho.blade.php",
+		"/home/marneimax/Documents/ag3/classydog.com.br.local/public_html/resources/views/home.blade.php",
+		"/home/marneimax/Documents/ag3/classydog.com.br.local/public_html/app/Http/Controllers/ContatoController.php",
+		"/home/marneimax/Documents/ag3/classydog.com.br.local/public_html/app/Http/Controllers/HomeController.php",
+		"/home/marneimax/Documents/ag3/classydog.com.br.local/public_html/app/Http/Controllers/LogController.php",
+		"/home/marneimax/Documents/ag3/classydog.com.br.local/public_html/resources/views/email/template_preview.blade.php",
+		"/home/marneimax/Documents/ag3/classydog.com.br.local/public_html/app/Providers/AppServiceProvider.php",
+		"/home/marneimax/Documents/ag3/classydog.com.br.local/public_html/storage/app/uploads/forms.txt",
+		"/home/marneimax/Documents/ag3/classydog.com.br.local/public_html/resources/views/galeria.blade.php",
+		"/home/marneimax/Documents/ag3/classydog.com.br.local/public_html/.env",
+		"/home/marneimax/Documents/ag3/classydog.com.br.local/public_html/resources/views/sobre.blade.php",
+		"/home/marneimax/Documents/ag3/classydog.com.br.local/public_html/resources/views/components/call-orcamento.blade.php",
+		"/home/marneimax/Documents/ag3/classydog.com.br.local/public_html/resources/views/pedir-orcamento.blade.php",
+		"/home/marneimax/Documents/ag3/classydog.com.br.local/public_html/resources/views/servicos.blade.php",
+		"/home/marneimax/Documents/ag3/classydog.com.br.local/public_html/resources/views/components/header.blade.php",
+		"/home/marneimax/Documents/ag3/classydog.com.br.local/public_html/resources/views/teste.blade.php",
+		"/home/marneimax/Documents/ag3/classydog.com.br.local/public_html/routes/web.php",
+		"/home/marneimax/Documents/ag3/classydog.com.br.local/public_html/resources/views/layout.blade.php",
+		"/home/marneimax/Documents/ag3/classydog.com.br.local/public_html/public/css/estilo.css",
+		"/home/marneimax/Documents/ag3/classydog.com.br.local/public_html/public/js/flickity.pkgd.min.js",
+		"/home/marneimax/Desktop/postinstall-basic.sh",
+		"/home/marneimax/Documents/ag3/classydog.com.br.local/public_html/vendor/phpspec/prophecy/src/Prophecy/Argument/Token/ApproximateValueToken.php",
+		"/home/marneimax/Documents/ag3/classydog.com.br.local/public_html/resources/views/clientes.blade.php",
+		"/home/marneimax/Documents/ag3/classydog.com.br.local/public_html/storage/app/uploads/visitas_v.txt",
+		"/home/marneimax/Documents/ag3/old/__clientes/jjrempreendimentos/resources/views/layouts/layout_novo.blade.php",
+		"/home/marneimax/Documents/ag3/old/__clientes/jjrempreendimentos/resources/views/layouts/new_base.blade.php",
+		"/home/marneimax/Documents/ag3/classydog.com.br.local/public_html/storage/app/uploads/multiplaeventos.txt",
+		"/home/marneimax/Documents/ag3/classydog.com.br.local/public_html/storage/app/uploads/gustavocarvalho.txt",
+		"/home/marneimax/Documents/ag3/classydog.com.br.local/public_html/node_modules/webpack/lib/HotModuleReplacement.runtime.js",
+		"/home/marneimax/Documents/ag3/classydog.com.br.local/public_html/public/css/app.css",
+		"/home/marneimax/Documents/ag3/classydog.com.br.local/public_html/resources/views/hub.blade.php",
+		"/home/marneimax/Documents/ag3/classydog.com.br.local/public_html/app/Mail/PreviewContato.php",
+		"/home/marneimax/Documents/ag3/classydog.com.br.local/public_html/app/Mail/Contato.php",
+		"/home/marneimax/Documents/ag3/classydog.com.br.local/public_html/resources/views/email/template.blade.php",
+		"/home/marneimax/Documents/ag3/classydog.com.br.local/public_html/config/session.php",
+		"/home/marneimax/Documents/ag3/classydog.com.br.local/public_html/app/Http/Controllers/LinksController.php",
+		"/home/marneimax/Desktop/ContactController.php",
+		"/home/marneimax/Documents/ag3/classydog.com.br.local/public_html/storage/app/uploads/testando.txt",
+		"/home/marneimax/Documents/ag3/classydog.com.br.local/public_html/app/Http/Controllers/ServicosController.php",
+		"/home/marneimax/Documents/ag3/classydog.com.br.local/public_html/storage/logs/laravel-2019-09-20.log",
+		"/var/log/apache2/error.log",
+		"/var/log/apache2/error.log.1",
+		"/home/marneimax/Documents/ag3/classydog.com.br.local/public_html/storage/app/uploads/attempt1.txt",
+		"/home/marneimax/Documents/ag3/classydog.com.br.local/public_html/storage/app/.gitignore",
+		"/home/marneimax/Documents/ag3/jjrempreendimentos/resources/views/contact/contact.blade.php",
+		"/home/marneimax/Documents/ag3/jjrempreendimentos/routes/web.php",
+		"/home/marneimax/Desktop/web",
+		"/home/marneimax/Documents/ag3/classydog.com.br.local/public_html/config/app.php",
+		"/home/marneimax/Documents/ag3/classydog.com.br.local/public_html/resources/views/mais-depoimentos.blade.php",
+		"/home/marneimax/Documents/ag3/classydog.com.br.local/public_html/app/Providers/AppServiceProvider_Paisa.php",
+		"/home/marneimax/Desktop/lixo",
+		"/home/marneimax/Desktop/lixo2",
+		"/home/marneimax/Desktop/bbwys",
+		"/home/marneimax/Documents/ag3/classydog.com.br.local/public_html/resources/views/components/galeria.blade.php",
+		"/home/marneimax/Documents/ag3/classydog.com.br.local/public_html/app/Http/Controllers/Controller.php",
+		"/home/marneimax/Desktop/config laravel hostgator",
+		"/home/marneimax/Documents/ag3/classydog.com.br.local/public_html/resources/views/components/galeria-sobre.blade.php",
+		"/home/marneimax/Documents/ag3/susexy.com.br.local/app/Http/Controllers/PagesController.php",
+		"/home/marneimax/Documents/ag3/oo/inc/Conteudo.php",
+		"/home/marneimax/Documents/ag3/oo/inc/model.php",
+		"/home/marneimax/Documents/ag3/susexy.com.br.local/app/Http/Controllers/Controller.php",
+		"/home/marneimax/Documents/ag3/susexy.com.br.local/app/Http/Kernel.php",
+		"/home/marneimax/Documents/ag3/susexy.com.br.local/app/User.php",
+		"/home/marneimax/Downloads/Conversa do WhatsApp com CLIWEB CD Gus.txt",
+		"/home/marneimax/Documents/ag3/classydog.com.br.local/public_html/public/img/icon_layout_subir_branco.png",
+		"/home/marneimax/Documents/ag3/classydog.com.br.local/public_html/public/viewerjs/index.html",
+		"/home/marneimax/Documents/ag3/classydog.com.br.local/public_html/public/photoswipe/photoswipe.html",
+		"/home/marneimax/Documents/ag3/classydog.com.br.local/public_html/node_modules/photoswipe/dist/photoswipe.css",
+		"/media/marneimax/affe1e1f-068f-405b-93fc-511ecd6b3125/home/marneimax/Documents/www/___wys/old/mmaximiano/resources/views/invoice.blade.php",
+		"/home/marneimax/Documents/ag3/oo/error_log",
+		"/home/marneimax/Documents/ag3/oo/inc/pdo.Conf.php",
+		"/home/marneimax/Documents/ag3/oo/inc/main.Conf.php",
+		"/home/marneimax/Documents/ag3/oo/index.php",
+		"/home/marneimax/Documents/ag3/secure-cove-51977/.env",
+		"/home/marneimax/Downloads/links porto.txt",
+		"/home/marneimax/Downloads/Conversa do WhatsApp com Jaqueline.txt",
+		"/home/marneimax/Documents/ag3/classydog.com.br.local/public_html/app/Http/Controllers/cerimonialista-HomeController.php",
+		"/home/marneimax/.local/hunt/log.txt",
+		"/home/marneimax/Documents/ag3/classydog.com.br.local/public_html/app/Http/Controllers/BioController.php",
+		"/home/marneimax/Documents/ag3/classydog.com.br.local/public_html/package.json",
+		"/home/marneimax/Documents/ag3/classydog.com.br.local/public_html/webpack.mix.js",
+		"/home/marneimax/Documents/ag3/classydog.com.br.local/public_html/resources/sass/app.scss",
+		"/home/marneimax/Documents/ag3/classydog.com.br.local/public_html/public/js/app.js",
+		"/home/marneimax/Documents/ag3/classydog.com.br.local/public_html/resources/js/app.js"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 215.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"<div class=\"col-6\">",
+			"<input ",
+			"p-2\"",
+			"<td>",
+			"<th scope=\"col\"",
+			"<div class=\"col-6\">",
+			"<input ",
+			"btn border-dark",
+			"<li><a ",
+			"cliente",
+			"pt-2 pb",
+			"p-2",
+			"2 \">",
+			"p-2",
+			"<td class=\"",
+			"<td>",
+			"col",
+			"bor",
+			"rounded",
+			"mb-2",
+			"col-4",
+			"input",
+			"class=\"form-control\" ",
+			"required",
+			"email",
+			"<label f",
+			"bg-",
+			"col ",
+			"bg",
+			"p-5",
+			"<div class=\"col\">",
+			"<li>",
+			"justify-content-between",
+			"servi",
+			".jpg",
+			"PASTA",
+			"A ",
+			"P ",
+			".jpg"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "resources/views/layout.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1817,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								378,
+								378
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "resources/views/editarOrdem.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1468,
+						"regions":
+						{
+							"col_FFFFFFFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										1427,
+										1432
+									]
+								],
+								"scope": "col_FFFFFFFF"
+							},
+							"col_FFFFFFFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_FFFFFFFF_circle.png",
+								"regions":
+								[
+									[
+										1265,
+										1265
+									]
+								],
+								"scope": "col_gutter"
+							}
+						},
+						"selection":
+						[
+							[
+								1325,
+								1325
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "resources/views/index.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2221,
+						"regions":
+						{
+							"col_FFFFFFFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										1644,
+										1649
+									]
+								],
+								"scope": "col_FFFFFFFF"
+							},
+							"col_FFFFFFFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_FFFFFFFF_circle.png",
+								"regions":
+								[
+									[
+										1535,
+										1535
+									]
+								],
+								"scope": "col_gutter"
+							}
+						},
+						"selection":
+						[
+							[
+								544,
+								544
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 51.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "resources/views/editar.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3777,
+						"regions":
+						{
+							"col_FFFFFFFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										1173,
+										1178
+									],
+									[
+										2538,
+										2543
+									],
+									[
+										3131,
+										3136
+									]
+								],
+								"scope": "col_FFFFFFFF"
+							},
+							"col_FFFFFFFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_FFFFFFFF_circle.png",
+								"regions":
+								[
+									[
+										1011,
+										1011
+									],
+									[
+										2376,
+										2376
+									],
+									[
+										3031,
+										3031
+									]
+								],
+								"scope": "col_gutter"
+							}
+						},
+						"selection":
+						[
+							[
+								1203,
+								1203
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 204.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": ".env",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 794,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								268,
+								268
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 53.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.composer":
+	{
+		"height": 108.0
+	},
+	"output.exec":
+	{
+		"height": 120.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "untitled.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"clientes",
+				"resources/views/clientes.blade.php"
+			],
+			[
+				"classycontr",
+				"app/Http/Controllers/ClassyController.php"
+			],
+			[
+				"layout",
+				"resources/views/layout.blade.php"
+			],
+			[
+				"sobre",
+				"resources/views/sobre.blade.php"
+			],
+			[
+				"verde",
+				"resources/views/cli/verderiproducoes.blade.php"
+			],
+			[
+				"estilo",
+				"public/css/estilo.css"
+			],
+			[
+				"classycontro",
+				"app/Http/Controllers/ClassyController.php"
+			],
+			[
+				"homeblade",
+				"resources/views/home.blade.php"
+			],
+			[
+				"servic",
+				"resources/views/servicos.blade.php"
+			],
+			[
+				"homecon",
+				"app/Http/Controllers/HomeController.php"
+			],
+			[
+				"contatocontr",
+				"app/Http/Controllers/ContatoController.php"
+			],
+			[
+				"servicos cont",
+				"app/Http/Controllers/ServicosController.php"
+			],
+			[
+				"alpha",
+				"resources/views/cli/alphatecinformatica.blade.php"
+			],
+			[
+				"head",
+				"resources/views/components/header.blade.php"
+			],
+			[
+				"metas",
+				"resources/views/components/metas.blade.php"
+			],
+			[
+				"",
+				"app/Http/Controllers/HomeController.php"
+			],
+			[
+				"meta",
+				"resources/views/components/metas.blade.php"
+			],
+			[
+				"pedir",
+				"resources/views/pedir-orcamento.blade.php"
+			],
+			[
+				"verderi",
+				"resources/views/cli/verderiproducoes.blade.php"
+			],
+			[
+				"gustavo",
+				"resources/views/cli/gustavocarvalho.blade.php"
+			],
+			[
+				"cliente",
+				"resources/views/clientes.blade.php"
+			],
+			[
+				"header",
+				"resources/views/components/header.blade.php"
+			],
+			[
+				"homecontr",
+				"app/Http/Controllers/HomeController.php"
+			],
+			[
+				"homecontro",
+				"app/Http/Controllers/HomeController.php"
+			],
+			[
+				"sercontroler",
+				"app/Http/Controllers/ServicosController.php"
+			],
+			[
+				"web.p",
+				"routes/web.php"
+			],
+			[
+				"web",
+				"routes/web.php"
+			],
+			[
+				"appprovi",
+				"app/Providers/AppServiceProvider.php"
+			],
+			[
+				"logcontro",
+				"app/Http/Controllers/LogController.php"
+			],
+			[
+				".env",
+				".env"
+			],
+			[
+				"galeria",
+				"resources/views/galeria.blade.php"
+			],
+			[
+				"callor",
+				"resources/views/components/call-orcamento.blade.php"
+			],
+			[
+				"pedi",
+				"resources/views/pedir-orcamento.blade.php"
+			],
+			[
+				"servicos",
+				"resources/views/servicos.blade.php"
+			],
+			[
+				"pediror",
+				"resources/views/pedir-orcamento.blade.php"
+			],
+			[
+				"appprovid",
+				"app/Providers/AppServiceProvider.php"
+			],
+			[
+				"apprp",
+				"vendor/phpspec/prophecy/src/Prophecy/Argument/Token/ApproximateValueToken.php"
+			],
+			[
+				"mult",
+				"resources/views/cli/multiplaeventos.blade.php"
+			],
+			[
+				"apppro",
+				"app/Providers/AppServiceProvider.php"
+			],
+			[
+				"log",
+				"app/Http/Controllers/LogController.php"
+			],
+			[
+				"layou",
+				"resources/views/layout.blade.php"
+			],
+			[
+				"multipla",
+				"resources/views/cli/multiplaeventos.blade.php"
+			],
+			[
+				"estilo.",
+				"public/css/estilo.css"
+			],
+			[
+				"cliente.bl",
+				"resources/views/clientes.blade.php"
+			],
+			[
+				"gustav",
+				"resources/views/cli/gustavocarvalho.blade.php"
+			],
+			[
+				"orcamento",
+				"resources/views/components/call-orcamento.blade.php"
+			],
+			[
+				"estilo.cs",
+				"public/css/estilo.css"
+			],
+			[
+				"homecontrol",
+				"app/Http/Controllers/HomeController.php"
+			],
+			[
+				"hub",
+				"resources/views/hub.blade.php"
+			],
+			[
+				"home",
+				"node_modules/webpack/lib/HotModuleReplacement.runtime.js"
+			],
+			[
+				"galeriabl",
+				"resources/views/galeria.blade.php"
+			],
+			[
+				"pedirbla",
+				"resources/views/pedir-orcamento.blade.php"
+			],
+			[
+				"sobrebla",
+				"resources/views/sobre.blade.php"
+			],
+			[
+				"homeblad",
+				"resources/views/home.blade.php"
+			],
+			[
+				"multi",
+				"resources/views/cli/multiplaeventos.blade.php"
+			],
+			[
+				"app.css",
+				"public/css/app.css"
+			],
+			[
+				"form",
+				"storage/app/uploads/forms.txt"
+			],
+			[
+				"session.",
+				"config/session.php"
+			],
+			[
+				"form.tx",
+				"storage/app/uploads/forms.txt"
+			],
+			[
+				"multipla.tx",
+				"storage/app/uploads/multiplaeventos.txt"
+			],
+			[
+				"templateblade",
+				"resources/views/email/template_preview.blade.php"
+			],
+			[
+				"preview",
+				"app/Mail/PreviewContato.php"
+			],
+			[
+				"contato",
+				"app/Mail/Contato.php"
+			],
+			[
+				"pediro",
+				"resources/views/pedir-orcamento.blade.php"
+			],
+			[
+				"gusta",
+				"resources/views/cli/gustavocarvalho.blade.php"
+			],
+			[
+				"contatocontro",
+				"app/Http/Controllers/ContatoController.php"
+			],
+			[
+				"previ",
+				"app/Mail/PreviewContato.php"
+			],
+			[
+				"linkcontro",
+				"app/Http/Controllers/LinksController.php"
+			],
+			[
+				"logconro",
+				"app/Http/Controllers/LogController.php"
+			],
+			[
+				"servicoscontro",
+				"app/Http/Controllers/ServicosController.php"
+			],
+			[
+				"app",
+				"config/app.php"
+			],
+			[
+				"home.php",
+				"resources/views/home.blade.php"
+			],
+			[
+				"paisa",
+				"app/Providers/AppServiceProvider_Paisa.php"
+			],
+			[
+				"appser",
+				"app/Providers/AppServiceProvider.php"
+			],
+			[
+				"appservice",
+				"app/Providers/AppServiceProvider.php"
+			],
+			[
+				"home.b",
+				"resources/views/home.blade.php"
+			],
+			[
+				"sobre.bl",
+				"resources/views/sobre.blade.php"
+			],
+			[
+				"controler.",
+				"app/Http/Controllers/Controller.php"
+			],
+			[
+				"we",
+				"routes/web.php"
+			],
+			[
+				"servicos.",
+				"resources/views/servicos.blade.php"
+			],
+			[
+				"home.bl",
+				"resources/views/home.blade.php"
+			],
+			[
+				"appservi",
+				"app/Providers/AppServiceProvider.php"
+			],
+			[
+				"pedid",
+				"resources/views/pedir-orcamento.blade.php"
+			],
+			[
+				"home.",
+				"resources/views/home.blade.php"
+			],
+			[
+				"call-or",
+				"resources/views/components/call-orcamento.blade.php"
+			],
+			[
+				"appseri",
+				"app/Providers/AppServiceProvider.php"
+			],
+			[
+				"home.bla",
+				"resources/views/home.blade.php"
+			],
+			[
+				"/js/app.js",
+				"resources/js/app.js"
+			],
+			[
+				"sass/app.scss",
+				"resources/sass/app.scss"
+			],
+			[
+				"webpack",
+				"webpack.mix.js"
+			],
+			[
+				"bio",
+				"app/Http/Controllers/BioController.php"
+			],
+			[
+				"wel",
+				"resources/views/welcome.blade.php"
+			],
+			[
+				"lay",
+				"resources/views/layout.blade.php"
+			],
+			[
+				"estil",
+				"public/css/estilo.css"
+			],
+			[
+				"pages",
+				"app/Http/Controllers/PagesController.php"
+			],
+			[
+				"page",
+				"app/Http/Controllers/PagesController.php"
+			],
+			[
+				"quemso",
+				"resources/views/quem-somos.blade.php"
+			],
+			[
+				"home.blad",
+				"resources/views/home.blade.php"
+			],
+			[
+				"welcome",
+				"resources/views/welcome.blade.php"
+			],
+			[
+				"box_rig",
+				"resources/views/contact/box_right.blade.php"
+			],
+			[
+				"contact",
+				"resources/views/contact/contact.blade.php"
+			],
+			[
+				"empreendim",
+				"app/Http/Controllers/EmpreendimentoController.php"
+			],
+			[
+				"flicki",
+				"public/css/flickity.min.css"
+			],
+			[
+				"lp_new",
+				"public/css/lp_new.css"
+			],
+			[
+				"custom",
+				"public/css/custom_new.css"
+			],
+			[
+				"custom_n",
+				"public/css/custom_new.css"
+			],
+			[
+				"custom_ne",
+				"public/css/custom_new.css"
+			],
+			[
+				"empree",
+				"public/css/empreendimentos.css"
+			],
+			[
+				"projet",
+				"resources/views/projects.blade.php"
+			],
+			[
+				"lp_n",
+				"public/css/lp_new.css"
+			],
+			[
+				"proje",
+				"resources/views/projects.blade.php"
+			],
+			[
+				"empreen",
+				"app/Http/Controllers/EmpreendimentoController.php"
+			],
+			[
+				"_typ",
+				"node_modules/bootstrap/scss/_type.scss"
+			],
+			[
+				"style",
+				"public/css/empreendimentos/saopaulo/style.css"
+			],
+			[
+				"cust",
+				"public/css/custom.css"
+			],
+			[
+				"lp_",
+				"public/css/lp_new.css"
+			],
+			[
+				"america",
+				"resources/views/lps/american.blade.php"
+			],
+			[
+				"EmpreendimentoController",
+				"app/Http/Controllers/EmpreendimentoController.php"
+			],
+			[
+				"new_index",
+				"resources/views/new_index.blade.php"
+			],
+			[
+				"american",
+				"resources/views/lps/american.blade.php"
+			],
+			[
+				"valencia",
+				"resources/views/lps/valencia.blade.php"
+			],
+			[
+				"new_in",
+				"resources/views/new_index.blade.php"
+			],
+			[
+				"fli",
+				"public/css/flickity.css"
+			],
+			[
+				"flicke",
+				"node_modules/caniuse-lite/data/features/publickeypinning.js"
+			],
+			[
+				"welcom",
+				"resources/views/welcome.blade.php"
+			],
+			[
+				"dis",
+				"resources/views/site/distribuidor.blade.php"
+			],
+			[
+				"ferramenta",
+				"resources/views/site/ferramentas.blade.php"
+			],
+			[
+				"busca",
+				"resources/views/site/busca.blade.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 304.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}

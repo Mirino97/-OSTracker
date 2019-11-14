@@ -30,7 +30,7 @@
 		<div class="col-12"><input class="w-100 rounded p-2 mb-2" type="text" name="servico" placeholder="Serviço Prestado" value="" required></div>
 	</div>
 	<div class="row">
-		<div class="col-4"><input class="w-100 rounded p-2 mb-2" type="date" name="dataServico" placeholder="Data de Serviço" value="" required></div>
+		<div class="col-4"><input class="w-100 rounded p-2 mb-2" type="date" data-date="DD MM YYYY" data-date-format="DD MM YYYY" name="dataServico" placeholder="Data de Serviço" value="{{ date('Y-m-d') }}" required></div>
 		<div class="col-4"><input class="w-100 rounded p-2 mb-2" type="text" name="valor" placeholder="valor" value="" required></div>
 		<div class="col-4">
 			<select class="w-100 rounded p-2 mb-2" name="pago">
@@ -45,7 +45,7 @@
 	</div>
 	<div class="row justify-content-center">
 		
-		<div class="col-4"><input class="w-100 bg-success border-0 rounded p-2 mb-2" type="submit" name="button" value="Atualizar" class="btn bg-success" style="color: white"></div>
+		<div class="col-4"><input class="w-100 bg-success border-0 rounded p-2 mb-2" type="submit" name="button" value="Adicionar" class="btn bg-success" style="color: white"></div>
 	</div>
 </form>
 
