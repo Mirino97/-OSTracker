@@ -11,7 +11,6 @@
 |
 */
 
-Route::get('/', 'PagesController@index');
 Route::get('/{id}/edit', 'ClientesController@edit');
 Route::get('/{id}/delete', 'ClientesController@destroy');
 Route::patch('/{id}/update', 'ClientesController@update');
@@ -21,3 +20,7 @@ Route::post('/{id}/ordem/new', 'OrdensController@store');
 Route::get('/{id}/delete/ordem', 'OrdensController@destroy');
 Route::get('/{ordem}/ordemEdit', 'OrdensController@edit');
 Route::patch('/{ordem}/ordemUpdate', 'OrdensController@update');
+Auth::routes();
+
+Route::get('/', 'HomeController@index')->name('home');
+Route::get('/logout', 'Auth\LoginController@logout');

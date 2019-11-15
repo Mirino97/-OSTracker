@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <script src="{{ asset('js/app.js') }}" defer></script>
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>OsTracker</title>
     <link rel="stylesheet" type="text/css" href="{{ url('/css/bootstrap.css') }}" />
@@ -9,7 +10,9 @@
     <header class="container">
         <div class="row pt-3 pb-3 justify-content-between bg-light">
             <div class="col-2 h1">OSTracker</div>
-            <div class="col-2 text-right align-self-center">Olá, {usuario}</div>
+            <div class="col-2 text-right align-self-center">Olá, {{Auth::user()->name}} </div>
+
+            <div class="col-2 text-right align-self-center"><a href="/logout">Logout</a></div>
         </div>
     </header>
     <section class="container mt-3">

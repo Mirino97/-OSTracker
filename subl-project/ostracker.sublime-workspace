@@ -1,0 +1,570 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin",
+				"margin\tproperty"
+			],
+			[
+				"col",
+				"col"
+			],
+			[
+				"bo",
+				"border\tproperty"
+			],
+			[
+				"grid",
+				"grid-template-areas\tproperty"
+			],
+			[
+				"grid-tem",
+				"grid-template-columns\tproperty"
+			],
+			[
+				"ordens",
+				"ordens"
+			],
+			[
+				"fun",
+				"fun\tfunction …"
+			],
+			[
+				"padd",
+				"padding\tproperty"
+			],
+			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
+				"bor",
+				"border-collapse\tproperty"
+			],
+			[
+				"borde",
+				"border-spacing\tproperty"
+			],
+			[
+				"paddi",
+				"padding\tproperty"
+			],
+			[
+				"word",
+				"word-wrap\tproperty"
+			],
+			[
+				"flex",
+				"flex-grow\tproperty"
+			],
+			[
+				"inl",
+				"inline-flex\tdisplay"
+			],
+			[
+				"cont",
+				"justify-content\tproperty"
+			],
+			[
+				"conte",
+				"align-content\tproperty"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"usu",
+				"usuarios_v"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"align",
+				"align-items\tproperty"
+			],
+			[
+				"border-col",
+				"border-color\tproperty"
+			],
+			[
+				"border-ty",
+				"border-style\tproperty"
+			],
+			[
+				"bg-c",
+				"background-color\tproperty"
+			],
+			[
+				"backgrou",
+				"background-color\tproperty"
+			],
+			[
+				"bagr",
+				"background-color\tproperty"
+			],
+			[
+				"padding",
+				"padding\tproperty"
+			],
+			[
+				"max-",
+				"max-width\tproperty"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"reve",
+				"row-reverse\tflex-direction"
+			],
+			[
+				"alig",
+				"align-content\tproperty"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"pad",
+				"padding-left\tproperty"
+			],
+			[
+				"inline",
+				"inline-grid\tdisplay"
+			],
+			[
+				"font",
+				"font-family\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/julio/Documents/www/ostracker.com.br.local/public_html/resources/views/layout.blade.php",
+			"settings":
+			{
+				"buffer_size": 1817,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/julio/Documents/www/ostracker.com.br.local/public_html/routes/web.php",
+			"settings":
+			{
+				"buffer_size": 900,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/julio/Documents/www/ostracker.com.br.local/public_html/resources/views/index.blade.php",
+			"settings":
+			{
+				"buffer_size": 2221,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/julio/Documents/www/ostracker.com.br.local/public_html/public/css/bootstrap.css",
+			"settings":
+			{
+				"buffer_size": 194363,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"Install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: Install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/julio/Documents/www/ostracker.com.br.local",
+		"/home/julio/Documents/www/ostracker.com.br.local/public_html",
+		"/home/julio/Documents/www/ostracker.com.br.local/public_html/app",
+		"/home/julio/Documents/www/ostracker.com.br.local/public_html/public",
+		"/home/julio/Documents/www/ostracker.com.br.local/public_html/routes"
+	],
+	"file_history":
+	[
+		"/home/julio/Downloads/untitled.html",
+		"/home/julio/Documents/www/ostracker.com.br.local/public_html/public/css/style.css",
+		"/home/julio/Documents/www/ostracker.com.br.local/public_html/routes/web.php",
+		"/home/julio/Documents/www/ostracker.com.br.local/public_html/app/Http/Controllers/OrdensController.php",
+		"/home/julio/Documents/www/ostracker.com.br.local/public_html/app/ordens.php",
+		"/home/julio/Documents/www/ostracker.com.br.local/public_html/resources/views/editarOrdem.blade.php",
+		"/home/julio/Documents/www/ostracker.com.br.local/public_html/app/Http/Controllers/ClientesController.php",
+		"/home/julio/Documents/www/ostracker.com.br.local/public_html/resources/views/editar.blade.php",
+		"/home/julio/Documents/www/ostracker.com.br.local/public_html/resources/views/layout.blade.php",
+		"/home/julio/Documents/www/ostracker.com.br.local/public_html/app/clientes.php",
+		"/home/julio/Documents/www/ostracker.com.br.local/public_html/public/css/bootstrap.css",
+		"/home/julio/Documents/www/ostracker.com.br.local/public_html/resources/views/index.blade.php",
+		"/home/julio/Documents/www/ostracker.com.br.local/public_html/database/migrations/2019_10_27_045243_create_ordens_table.php",
+		"/home/julio/Documents/www/ostracker.com.br.local/public_html/app/Http/Controllers/PagesController.php",
+		"/home/julio/Documents/www/ostracker.com.br.local/public_html/database/migrations/2019_10_26_164316_clientes.php",
+		"/home/julio/Documents/www/ostracker.com.br.local/public_html/resources/views/create.blade.php",
+		"/home/julio/Documents/www/ostracker.com.br.local/public_html/resources/css/theme.css",
+		"/home/julio/Documents/www/ostracker.com.br.local/public_html/.env",
+		"/home/julio/Documents/www/agoravai.com.br.local/public_html/app/Http/Controllers/FormController.php",
+		"/home/julio/Documents/www/agoravai.com.br.local/public_html/app/informacao.php",
+		"/home/julio/Documents/www/agoravai.com.br.local/public_html/resources/views/edit.blade.php",
+		"/home/julio/Documents/www/agoravai.com.br.local/public_html/resources/views/laravel.blade.php",
+		"/home/julio/Documents/www/agoravai.com.br.local/public_html/app/Http/Controllers/PagesController.php",
+		"/home/julio/Documents/www/agoravai.com.br.local/public_html/app/cadastros.php",
+		"/home/julio/Documents/www/agoravai.com.br.local/public_html/routes/web.php",
+		"/home/julio/Documents/www/agoravai.com.br.local/public_html/database/migrations/2019_10_25_031337_create_informacaos_table.php",
+		"/home/julio/Documents/www/agoravai.com.br.local/public_html/database/migrations/2019_10_25_030637_create_infos_table.php",
+		"/home/julio/Documents/www/agoravai.com.br.local/public_html/database/migrations/2019_10_25_030041_create_descricaos_table.php",
+		"/home/julio/Documents/www/agoravai.com.br.local/public_html/database/factories/DescriptionFactory.php",
+		"/home/julio/Documents/www/agoravai.com.br.local/public_html/database/migrations/2019_10_25_023908_create_descriptions_table.php",
+		"/home/julio/Documents/www/agoravai.com.br.local/public_html/resources/views/master.blade.php",
+		"/home/julio/Documents/www/agoravai.com.br.local/public_html/app/usuarios.php",
+		"/home/julio/web/Exercises/app/Http/Controllers/Controller.php",
+		"/home/julio/web/Exercises/app/User.php",
+		"/home/julio/Documents/www/agoravai.com.br.local/public_html/resources/views/showteste.blade.php",
+		"/home/julio/Documents/www/agoravai.com.br.local/public_html/.env",
+		"/home/julio/Documents/www/agoravai.com.br.local/public_html/app/User.php",
+		"/home/julio/Documents/www/agoravai.com.br.local/public_html/database/migrations/2019_10_08_170043_create_usuarios_table.php",
+		"/home/julio/Documents/www/agoravai.com.br.local/public_html/database/migrations/2019_10_08_164834_cadastros.php",
+		"/home/julio/Documents/www/agoravai.com.br.local/public_html/database/migrations/2019_10_08_163913_cadastro.php",
+		"/home/julio/Documents/www/agoravai.com.br.local/public_html/app/Users.php",
+		"/home/julio/Documents/www/agoravai.com.br.local/public_html/database/migrations/2019_10_02_160742_create_users_table.php",
+		"/usr/share/phpmyadmin/libraries/sql.lib.php",
+		"/opt/lampp/phpmyadmin/config.inc.php",
+		"/home/julio/Documents/www/agoravai.com.br.local/public_html/public/css/theme.css",
+		"/home/julio/Documents/www/agoravai.com.br.local/public_html/resources/views/html.blade.php",
+		"/home/julio/Documents/www/agoravai.com.br.local/public_html/resources/views/css1.blade.php",
+		"/home/julio/Documents/www/agoravai.com.br.local/public_html/resources/views/css.blade.php",
+		"/home/julio/Documents/www/agoravai.com.br.local/public_html/resources/views/theme.css",
+		"/home/julio/Documents/www/agoravai.com.br.local/public_html/resources/views/home.blade.php",
+		"/home/julio/Documents/www/agoravai.com.br.local/public_html/vendor/symfony/http-kernel/Resources/welcome.html.php",
+		"/home/julio/.bashrc",
+		"/home/julio/.bash_aliases",
+		"/home/julio/web/Exercises/resources/views/master.blade.php",
+		"/home/julio/web/Exercises/resources/views/contact.blade.php",
+		"/home/julio/web/Exercises/resources/views/home.blade.php",
+		"/home/julio/web/Exercises/routes/web.php",
+		"/home/julio/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
+		"/home/julio/Desktop/St00pid/index.html",
+		"/home/julio/Desktop/St00pid/style.css",
+		"/home/julio/.bash_pr",
+		"/home/julio/.bash.rc",
+		"/home/julio/Desktop/index.html"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 102.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"button btn-success",
+			"col",
+			"left",
+			"center",
+			"80",
+			"100",
+			"left",
+			"clientes",
+			"id",
+			"cliente",
+			"clientes",
+			"view",
+			"index",
+			"cadastros_v",
+			"btn",
+			"user",
+			"usuarios",
+			"update",
+			"user",
+			"teste",
+			"|| (count($analyzed_sql_results[‘select_expr’] == 1)",
+			"button"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/julio/Documents/www/ostracker.com.br.local/public_html/resources/views/layout.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1817,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1817,
+								1817
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 255.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/julio/Documents/www/ostracker.com.br.local/public_html/routes/web.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 900,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								900,
+								900
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/julio/Documents/www/ostracker.com.br.local/public_html/resources/views/index.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2221,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/julio/Documents/www/ostracker.com.br.local/public_html/public/css/bootstrap.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 194363,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1249,
+								1249
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 357.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 41.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "ostracker.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 236.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
