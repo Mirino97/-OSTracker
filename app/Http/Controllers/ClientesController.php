@@ -7,6 +7,10 @@ use App\clientes;
 
 class ClientesController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
 
     public function create()
     {
