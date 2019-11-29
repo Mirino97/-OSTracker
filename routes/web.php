@@ -20,7 +20,7 @@ Route::post('/{id}/ordem/new', 'OrdensController@store');
 Route::get('/{id}/delete/ordem', 'OrdensController@destroy');
 Route::get('/{ordem}/ordemEdit', 'OrdensController@edit');
 Route::patch('/{ordem}/ordemUpdate', 'OrdensController@update');
-Auth::routes();
 
+Auth::routes();
 Route::get('/', 'HomeController@index')->name('home');
 Route::get('/logout', 'Auth\LoginController@logout');
