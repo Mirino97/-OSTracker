@@ -21,6 +21,9 @@ Route::get('/{id}/delete/ordem', 'OrdensController@destroy');
 Route::get('/{ordem}/ordemEdit', 'OrdensController@edit');
 Route::patch('/{ordem}/ordemUpdate', 'OrdensController@update');
 
+Route::get('/{id}/equipamento', 'EquipamentosController@show');
+Route::post('/{id}/novoEquipamento', 'EquipamentosController@create');
+
 Auth::routes();
 Route::get('/', 'HomeController@index')->name('home');
 Route::get('/logout', 'Auth\LoginController@logout');

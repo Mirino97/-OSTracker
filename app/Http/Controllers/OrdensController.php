@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\ordens;
+use App\Ordens;
 
 class OrdensController extends Controller
 {
@@ -12,7 +12,7 @@ class OrdensController extends Controller
         $this->middleware('auth');
     }
 
-    public function store(ordens $ordens)
+    public function store(Ordens $ordens)
     {
         $novaOrdem = request()->validate([
 
@@ -41,17 +41,17 @@ class OrdensController extends Controller
     }
 
 
-    public function show(ordens $ordens)
+    public function show(Ordens $ordens)
     {	
         return view('/{id}/edit', compact('ordens'));
     }
 
-    public function edit(ordens $ordem)
+    public function edit(Ordens $ordem)
     {
         return view('editarOrdem', compact('ordem'));
     }
 
-    public function update(ordens $ordem)
+    public function update(Ordens $ordem)
     {   
         $ordem->update(request(['servico', 'dataServico', 'valor', 'pago', 'observacao']));
         return redirect('/'. $ordem->clientes_id.'/edit');

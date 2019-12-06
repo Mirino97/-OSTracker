@@ -51,32 +51,32 @@
 
 @endsection
 @section('listaOrdens')
-@if(count($cliente->ordens) > 0)
+	@if(count($cliente->getOrdens) > 0)
 
-<table class="w-100">
-	<tr class="bg-light">
-		<th scope="col" class="p-2 text-center">Serviço</th>
-		<th scope="col" class="p-2 text-center">Data</th>
-		<th scope="col" class="p-2 text-center">Valor</th>
-		<th scope="col" class="p-2 text-center">Pago</th>
-		<th scope="col" class="p-2">Observações</th>
-		<th scope="col" class="p-2"></th>
-	</tr>
-	@foreach($cliente->ordens as $ordens)
-	<tr>
-		<td class="p-2"><a href="/{{ $ordens->id }}/ordemEdit" class="w-100 btn bg-success" style="color: white">{{ mb_strimwidth($ordens['servico'], 0, 20, "...") }}</a></td>
-		<td class="p-2 text-center">{{ mb_strimwidth($ordens['dataServico'], 0, 20, "...") }}</a></td>
-		<td class="p-2 text-center">{{ mb_strimwidth($ordens['valor'], 0, 20, "...") }}</td>
-		<td class="p-2 text-center">{{ mb_strimwidth($ordens['pago'], 0, 30, "...") }}</td>
-		<td class="p-2">{{ mb_strimwidth($ordens['observacao'], 0, 30, "...") }}</td>
-		<td class="p-2">
-			<a href="{{url("/".$ordens['id']."/delete/ordem")}}" class="w-100 btn btn-danger">Delete</a>
-		</td>
-	</tr>
-	@endforeach
-</table>
-</div>
-@else
-<h1>NÃO EXISTEM ORDEMS PARA DISPLAYAR</h1>
-@endif
+	<table class="w-100">
+		<tr class="bg-light">
+			<th scope="col" class="p-2 text-center">Serviço</th>
+			<th scope="col" class="p-2 text-center">Data</th>
+			<th scope="col" class="p-2 text-center">Valor</th>
+			<th scope="col" class="p-2 text-center">Pago</th>
+			<th scope="col" class="p-2">Observações</th>
+			<th scope="col" class="p-2"></th>
+		</tr>
+		@foreach($cliente->getOrdens as $ordens)
+		<tr>
+			<td class="p-2"><a href="/{{ $ordens->id }}/ordemEdit" class="w-100 btn bg-success" style="color: white">{{ mb_strimwidth($ordens['servico'], 0, 20, "...") }}</a></td>
+			<td class="p-2 text-center">{{ mb_strimwidth($ordens['dataServico'], 0, 20, "...") }}</a></td>
+			<td class="p-2 text-center">{{ mb_strimwidth($ordens['valor'], 0, 20, "...") }}</td>
+			<td class="p-2 text-center">{{ mb_strimwidth($ordens['pago'], 0, 30, "...") }}</td>
+			<td class="p-2">{{ mb_strimwidth($ordens['observacao'], 0, 30, "...") }}</td>
+			<td class="p-2">
+				<a href="{{url("/".$ordens['id']."/delete/ordem")}}" class="w-100 btn btn-danger">Delete</a>
+			</td>
+		</tr>
+		@endforeach
+	</table>
+	</div>
+	@else
+	<h1>NÃO EXISTEM ORDEMS PARA DISPLAYAR</h1>
+	@endif
 @endsection
