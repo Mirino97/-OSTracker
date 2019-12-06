@@ -1,7 +1,6 @@
 <?php
 
 /*
-teste
 |--------------------------------------------------------------------------
 | Web Routes
 |--------------------------------------------------------------------------
@@ -28,3 +27,5 @@ Route::post('/{id}/novoEquipamento', 'EquipamentosController@create');
 Auth::routes();
 Route::get('/', 'HomeController@index')->name('home');
 Route::get('/logout', 'Auth\LoginController@logout');
+
+Route::redirect('/lixo','/vc');
