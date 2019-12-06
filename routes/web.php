@@ -29,3 +29,4 @@ Route::get('/', 'HomeController@index')->name('home');
 Route::get('/logout', 'Auth\LoginController@logout');
 
 Route::redirect('/lixo','/vc');
+Route::redirect('/vcmeodeia','/maseuteamo');
