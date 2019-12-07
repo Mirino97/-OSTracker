@@ -10,9 +10,15 @@
 	<input type="text" name="processador" placeholder="processador">
 	<input type="text" name="ram" placeholder="ram">
 	<input type="text" name="hd" placeholder="hd">
-	<input type="text" name="ethernet" placeholder="ethernet">
+	<select name="ethernet">
+		<option value="cabo" selected="cabo">Cabo</option>
+		<option value="wifi">Wi-Fi</option>
+	</select>
 	<input type="text" name="ip" placeholder="ip">
-	<input type="text" name="ipfixo" placeholder="ipfixo">
+	<select name="ipfixo">
+		<option value="nao" selected="nao">Não</option>
+		<option value="sim">Sim</option>
+	</select>
 	<input type="text" name="programas" placeholder="programas">
 	<input type="submit" name="submit">
 
@@ -29,12 +35,12 @@
 	</tr>
 	@foreach($equipamentos as $equipamento)
 	<tr>
-		<td class="p-2"><a href="" class="w-100 btn bg-success" style="color: white">{{ mb_strimwidth($equipamento['nome'], 0, 20, "...") }}</a></td>
+		<td class="p-2"><a href="/{{ $equipamento->id }}/equipamentoEdit" class="w-100 btn bg-success" style="color: white">{{ mb_strimwidth($equipamento['nome'], 0, 20, "...") }}</a></td>
 		<td class="p-2 text-center">{{ mb_strimwidth($equipamento['usuario'], 0, 20, "...") }}</td>
 		<td class="p-2">{{ $equipamento->ip }}</td>
 		<td class="p-2">{{ $equipamento->ethernet }}</td>
 		<td class="p-2">
-			<a href="" class="w-100 btn btn-danger">Delete</a>
+			<a href="/{{ $equipamento->id}}/delete/equipamento" class="w-100 btn btn-danger">Delete</a>
 		</td>
 	</tr>
 

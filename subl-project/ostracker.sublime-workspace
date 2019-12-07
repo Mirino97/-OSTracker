@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"clientes",
+				"clientes_id"
+			],
+			[
+				"equi",
+				"equipamento"
+			],
+			[
+				"id",
+				"clientes_id"
+			],
+			[
+				"no",
+				"novoEquipamento"
+			],
+			[
 				"margin",
 				"margin\tproperty"
 			],
@@ -152,19 +168,10 @@
 	"buffers":
 	[
 		{
-			"file": "/home/julio/Documents/www/ostracker.com.br.local/public_html/resources/views/layout.blade.php",
-			"settings":
-			{
-				"buffer_size": 1986,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "/home/julio/Documents/www/ostracker.com.br.local/public_html/routes/web.php",
 			"settings":
 			{
-				"buffer_size": 985,
+				"buffer_size": 1199,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -179,27 +186,26 @@
 			}
 		},
 		{
-			"file": "/home/julio/Documents/www/ostracker.com.br.local/public_html/resources/views/index.blade.php",
+			"file": "/home/julio/Documents/www/ostracker.com.br.local/public_html/app/Clientes.php",
 			"settings":
 			{
-				"buffer_size": 2221,
-				"encoding": "UTF-8",
+				"buffer_size": 446,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/julio/Documents/www/ostracker.com.br.local/public_html/resources/views/home.blade.php",
+			"file": "/home/julio/Documents/www/ostracker.com.br.local/public_html/app/Equipamentos.php",
 			"settings":
 			{
-				"buffer_size": 626,
+				"buffer_size": 512,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/julio/Documents/www/ostracker.com.br.local/public_html/resources/views/auth/login.blade.php",
+			"file": "/home/julio/Documents/www/ostracker.com.br.local/public_html/app/Ordens.php",
 			"settings":
 			{
-				"buffer_size": 3378,
+				"buffer_size": 442,
 				"line_ending": "Unix"
 			}
 		}
@@ -257,42 +263,46 @@
 		"/home/julio/Documents/www/ostracker.com.br.local/public_html/app",
 		"/home/julio/Documents/www/ostracker.com.br.local/public_html/app/Http",
 		"/home/julio/Documents/www/ostracker.com.br.local/public_html/app/Http/Controllers",
-		"/home/julio/Documents/www/ostracker.com.br.local/public_html/app/Http/Controllers/Auth",
-		"/home/julio/Documents/www/ostracker.com.br.local/public_html/app/Http/Middleware",
 		"/home/julio/Documents/www/ostracker.com.br.local/public_html/database",
 		"/home/julio/Documents/www/ostracker.com.br.local/public_html/database/migrations",
 		"/home/julio/Documents/www/ostracker.com.br.local/public_html/public",
 		"/home/julio/Documents/www/ostracker.com.br.local/public_html/resources",
 		"/home/julio/Documents/www/ostracker.com.br.local/public_html/resources/js",
 		"/home/julio/Documents/www/ostracker.com.br.local/public_html/resources/views",
-		"/home/julio/Documents/www/ostracker.com.br.local/public_html/resources/views/auth",
-		"/home/julio/Documents/www/ostracker.com.br.local/public_html/resources/views/layouts",
 		"/home/julio/Documents/www/ostracker.com.br.local/public_html/routes"
 	],
 	"file_history":
 	[
+		"/home/julio/Documents/www/ostracker.com.br.local/public_html/resources/views/equipamentos.blade.php",
+		"/home/julio/Documents/www/ostracker.com.br.local/public_html/resources/views/editar.blade.php",
+		"/home/julio/Documents/www/ostracker.com.br.local/public_html/app/Http/Controllers/EquipamentosController.php",
 		"/home/julio/Documents/www/ostracker.com.br.local/public_html/app/Http/Controllers/ClientesController.php",
-		"/home/julio/Documents/www/ostracker.com.br.local/public_html/app/Http/Controllers/HomeController.php",
+		"/home/julio/Documents/www/ostracker.com.br.local/public_html/resources/views/layout.blade.php",
+		"/home/julio/Documents/www/ostracker.com.br.local/public_html/app/Clientes.php",
+		"/home/julio/Documents/www/ostracker.com.br.local/public_html/app/Ordens.php",
+		"/home/julio/Documents/www/ostracker.com.br.local/public_html/app/Equipamentos.php",
+		"/home/julio/Documents/www/ostracker.com.br.local/public_html/database/migrations/2019_11_29_015240_create_equipamentos_table.php",
 		"/home/julio/Documents/www/ostracker.com.br.local/public_html/app/Http/Controllers/OrdensController.php",
-		"/home/julio/Documents/www/ostracker.com.br.local/public_html/app/Http/Controllers/PagesController.php",
+		"/home/julio/Documents/www/ostracker.com.br.local/public_html/app/Http/Controllers/HomeController.php",
+		"/home/julio/Documents/www/ostracker.com.br.local/public_html/resources/views/editarOrdem.blade.php",
+		"/home/julio/Documents/www/ostracker.com.br.local/public_html/app/equipamentos.php",
+		"/home/julio/Documents/www/ostracker.com.br.local/public_html/app/clientes.php",
+		"/home/julio/Documents/www/ostracker.com.br.local/public_html/app/ordens.php",
+		"/home/julio/Documents/www/ostracker.com.br.local/public_html/resources/views/index.blade.php",
+		"/home/julio/Documents/www/ostracker.com.br.local/public_html/database/migrations/2019_10_27_045243_create_ordens_table.php",
 		"/home/julio/Documents/www/ostracker.com.br.local/public_html/resources/views/home.blade.php",
+		"/home/julio/Documents/www/ostracker.com.br.local/public_html/resources/views/auth/login.blade.php",
+		"/home/julio/Documents/www/ostracker.com.br.local/public_html/app/Http/Controllers/PagesController.php",
 		"/home/julio/Documents/www/ostracker.com.br.local/public_html/public/css/bootstrap.css",
 		"/home/julio/Documents/www/ostracker.com.br.local/public_html/resources/views/layouts/app.blade.php",
 		"/home/julio/Documents/www/ostracker.com.br.local/public_html/app/Http/Controllers/Auth/LoginController.php",
 		"/home/julio/Documents/www/ostracker.com.br.local/public_html/app/Http/Controllers/Auth/LogoutController.php",
 		"/home/julio/Documents/www/ostracker.com.br.local/public_html/resources/js/app.js",
-		"/home/julio/Documents/www/ostracker.com.br.local/public_html/resources/views/index.blade.php",
 		"/home/julio/Documents/www/ostracker.com.br.local/public_html/app/Http/Controllers/Auth/RegisterController.php",
 		"/home/julio/Documents/www/Teste/app/User.php",
 		"/home/julio/Downloads/untitled.html",
 		"/home/julio/Documents/www/ostracker.com.br.local/public_html/public/css/style.css",
 		"/home/julio/Documents/www/ostracker.com.br.local/public_html/routes/web.php",
-		"/home/julio/Documents/www/ostracker.com.br.local/public_html/app/ordens.php",
-		"/home/julio/Documents/www/ostracker.com.br.local/public_html/resources/views/editarOrdem.blade.php",
-		"/home/julio/Documents/www/ostracker.com.br.local/public_html/resources/views/editar.blade.php",
-		"/home/julio/Documents/www/ostracker.com.br.local/public_html/resources/views/layout.blade.php",
-		"/home/julio/Documents/www/ostracker.com.br.local/public_html/app/clientes.php",
-		"/home/julio/Documents/www/ostracker.com.br.local/public_html/database/migrations/2019_10_27_045243_create_ordens_table.php",
 		"/home/julio/Documents/www/ostracker.com.br.local/public_html/database/migrations/2019_10_26_164316_clientes.php",
 		"/home/julio/Documents/www/ostracker.com.br.local/public_html/resources/views/create.blade.php",
 		"/home/julio/Documents/www/ostracker.com.br.local/public_html/resources/css/theme.css",
@@ -345,7 +355,7 @@
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 40.0
 	},
 	"find_in_files":
 	{
@@ -359,6 +369,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"ordens",
+			"(ordens",
+			"ordens",
+			"request",
+			"cliente",
 			"pages",
 			"button btn-success",
 			"col",
@@ -404,49 +419,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/home/julio/Documents/www/ostracker.com.br.local/public_html/resources/views/layout.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1986,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1658,
-								1658
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "/home/julio/Documents/www/ostracker.com.br.local/public_html/routes/web.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 985,
+						"buffer_size": 1199,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								792,
-								792
+								1153,
+								1153
 							]
 						],
 						"settings":
@@ -457,11 +442,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 1,
 					"file": "/home/julio/Documents/www/ostracker.com.br.local/public_html/app/Http/Controllers/OrdensController.php",
 					"semi_transient": false,
 					"settings":
@@ -473,8 +458,68 @@
 						"selection":
 						[
 							[
-								204,
-								204
+								78,
+								78
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 510.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/julio/Documents/www/ostracker.com.br.local/public_html/app/Clientes.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 446,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/julio/Documents/www/ostracker.com.br.local/public_html/app/Equipamentos.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 512,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
 							]
 						],
 						"settings":
@@ -491,41 +536,12 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "/home/julio/Documents/www/ostracker.com.br.local/public_html/resources/views/index.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2221,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								861,
-								861
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
 					"buffer": 4,
-					"file": "/home/julio/Documents/www/ostracker.com.br.local/public_html/resources/views/home.blade.php",
+					"file": "/home/julio/Documents/www/ostracker.com.br.local/public_html/app/Ordens.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 626,
+						"buffer_size": 442,
 						"regions":
 						{
 						},
@@ -538,7 +554,7 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
@@ -547,36 +563,6 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/home/julio/Documents/www/ostracker.com.br.local/public_html/resources/views/auth/login.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3378,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								222,
-								222
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
 					"type": "text"
 				}
 			]
@@ -659,7 +645,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 236.0,
+	"side_bar_width": 260.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

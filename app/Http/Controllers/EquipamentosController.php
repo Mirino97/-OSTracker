@@ -18,7 +18,6 @@ class EquipamentosController extends Controller
     	$cliente = $id;
     	$clientes_id = $cliente->id;
     	$equipamentos = Equipamentos::all()->where('clientes_id', $clientes_id);
-    	//dd($equipamento->get('id'));
         return view('equipamentos', compact('cliente', 'equipamentos'));
     }
 
@@ -40,5 +39,22 @@ class EquipamentosController extends Controller
         Equipamentos::Create($novoEquipamento);
 
         return redirect()->back();
+    }
+
+    public function destroy($id)
+    {
+        Equipamentos::destroy($id);
+        return redirect()->back();
+    }
+
+    public function edit(Equipamentos $equipamento)
+    {
+        return view('editarEquipamento', compact('equipamento'));
+    }
+
+    public function update(Equipamentos $equipamento)
+    {   
+        $equipamento->update(request(['nome', 'usuario', 'processador', 'ram', 'hd', 'ethernet', 'ip', 'ipfixo']));
+        return redirect('/'. $equipamento->clientes_id.'/equipamento');
     }
 }

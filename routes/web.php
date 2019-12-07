@@ -23,10 +23,10 @@ Route::patch('/{ordem}/ordemUpdate', 'OrdensController@update');
 
 Route::get('/{id}/equipamento', 'EquipamentosController@show');
 Route::post('/{id}/novoEquipamento', 'EquipamentosController@create');
+Route::get('/{id}/delete/equipamento', 'EquipamentosController@destroy');
+Route::get('/{equipamento}/equipamentoEdit', 'EquipamentosController@edit');
+Route::patch('/{equipamento}/equipamentoUpdate', 'EquipamentosController@update');
 
 Auth::routes();
 Route::get('/', 'HomeController@index')->name('home');
 Route::get('/logout', 'Auth\LoginController@logout');
-
-Route::redirect('/lixo','/vc');
-Route::redirect('/vcmeodeia','/maseuteamo');

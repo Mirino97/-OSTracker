@@ -19,6 +19,8 @@
 	</div>
 </form>
 
+<a href="/{{ $cliente->id }}/equipamento" class="btn btn-warning">Lista de Equipamentos</a>
+
 @endsection
 @section('ordens')
 

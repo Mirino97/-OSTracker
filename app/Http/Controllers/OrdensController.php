@@ -60,7 +60,7 @@ class OrdensController extends Controller
 
     public function destroy($id)
     {
-    	ordens::destroy($id);
+    	Ordens::destroy($id);
     	return redirect()->back();
     }
 }
