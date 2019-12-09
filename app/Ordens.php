@@ -14,6 +14,7 @@ class Ordens extends Model
     	'dataServico',
     	'valor',
     	'pago',
+        'estado',
     	'observacao'
     ];
 

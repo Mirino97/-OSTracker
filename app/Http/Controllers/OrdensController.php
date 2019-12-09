@@ -21,6 +21,7 @@ class OrdensController extends Controller
         	'dataServico' => 'required',
         	'valor' => 'required',
         	'pago' => 'required',
+            'estado' => 'required',
         	'observacao' => 'nullable',
         ]);
         try {
@@ -53,7 +54,7 @@ class OrdensController extends Controller
 
     public function update(Ordens $ordem)
     {   
-        $ordem->update(request(['servico', 'dataServico', 'valor', 'pago', 'observacao']));
+        $ordem->update(request(['servico', 'dataServico', 'valor', 'pago', 'estado','observacao']));
         return redirect('/'. $ordem->clientes_id.'/edit');
     }
 

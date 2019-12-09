@@ -34,10 +34,17 @@
 	<div class="row">
 		<div class="col-4"><input class="w-100 rounded p-2 mb-2" type="date" data-date="DD MM YYYY" data-date-format="DD MM YYYY" name="dataServico" placeholder="Data de Serviço" value="{{ date('Y-m-d') }}" required></div>
 		<div class="col-4"><input class="w-100 rounded p-2 mb-2" type="text" name="valor" placeholder="valor" value="" required></div>
-		<div class="col-4">
+		<div class="col-2">
 			<select class="w-100 rounded p-2 mb-2" name="pago">
 				<option value="nao" selected="nao">Não</option>
 				<option value="sim">Sim</option>
+			</select>
+		</div>
+		<div class="col-2">
+			<select class="w-100 rounded p-2 mb-2" name="estado">
+				<option value="pendente" selected="pendente">Pendente</option>
+				<option value="em andamento">Em Andamento</option>
+				<option value="concluido">Concluído</option>
 			</select>
 		</div>
 	</div>
@@ -62,7 +69,8 @@
 			<th scope="col" class="p-2 text-center">Valor</th>
 			<th scope="col" class="p-2 text-center">Pago</th>
 			<th scope="col" class="p-2">Observações</th>
-			<th scope="col" class="p-2"></th>
+			<th scope="col" class="p-1">Estado</th>
+			<th scope="col" class="p-1"></th>
 		</tr>
 		@foreach($cliente->getOrdens as $ordens)
 		<tr>
@@ -71,7 +79,8 @@
 			<td class="p-2 text-center">{{ mb_strimwidth($ordens['valor'], 0, 20, "...") }}</td>
 			<td class="p-2 text-center">{{ mb_strimwidth($ordens['pago'], 0, 30, "...") }}</td>
 			<td class="p-2">{{ mb_strimwidth($ordens['observacao'], 0, 30, "...") }}</td>
-			<td class="p-2">
+			<td class="p-1">{{ ucfirst($ordens->estado) }}</td>
+			<td class="p-1">
 				<a href="{{url("/".$ordens['id']."/delete/ordem")}}" class="w-100 btn btn-danger">Delete</a>
 			</td>
 		</tr>
@@ -79,6 +88,8 @@
 	</table>
 	</div>
 	@else
-	<h1>NÃO EXISTEM ORDEMS PARA DISPLAYAR</h1>
+	<div class="alert alert-info text-center" role="alert">
+  		<h2>Não existem ordens cadastradas!</h2>
+	</div>
 	@endif
 @endsection

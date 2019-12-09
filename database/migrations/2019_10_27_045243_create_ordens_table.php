@@ -20,6 +20,7 @@ class CreateOrdensTable extends Migration
             $table->date('dataServico');
             $table->string('valor');
             $table->string('pago');
+            $table->string('estado');
             $table->text('observacao')->nullable();
             $table->timestamps();
         });
