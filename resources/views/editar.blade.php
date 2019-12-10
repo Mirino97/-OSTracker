@@ -79,7 +79,13 @@
 			<td class="p-2 text-center">{{ mb_strimwidth($ordens['valor'], 0, 20, "...") }}</td>
 			<td class="p-2 text-center">{{ mb_strimwidth($ordens['pago'], 0, 30, "...") }}</td>
 			<td class="p-2">{{ mb_strimwidth($ordens['observacao'], 0, 30, "...") }}</td>
-			<td class="p-1">{{ ucfirst($ordens->estado) }}</td>
+			@if ($ordens->estado === 'pendente')
+			<td class="p-1 alert alert-primary">{{ ucfirst($ordens->estado) }}</td>
+			@elseif ($ordens->estado === 'em andamento')
+			<td class="p-1 alert alert-warning">{{ ucfirst($ordens->estado) }}</td>
+			@elseif ($ordens->estado === 'concluido')
+			<td class="p-1 alert alert-success">{{ ucfirst($ordens->estado) }}</td>
+			@endif
 			<td class="p-1">
 				<a href="{{url("/".$ordens['id']."/delete/ordem")}}" class="w-100 btn btn-danger">Delete</a>
 			</td>
