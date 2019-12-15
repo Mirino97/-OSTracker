@@ -32,4 +32,21 @@
 		<div class="col-4"><input class="w-100 bg-success border-0 rounded p-2 mb-2" type="submit" name="button" value="Atualizar" class="btn bg-success" style="color: white"></div>
 	</div>
 </form>
+
+<form method="POST" action="/{{$ordem->id}}/novoComentario">
+	@csrf
+	<input type="hidden" name="ordemId" value="{{$ordem->id}}">
+	<input type="hidden" name="userId" value="{{Auth::user()->id}}">
+	<textarea name="comentario"></textarea>
+	<input type="submit">
+</form>
+
+<hr>
+
+@if($ordem->comentarios !== 'null')
+	@foreach($ordem->comentarios as $comentario)
+	 {{$comentario}}
+	@endforeach
+@endif
+
 @endsection

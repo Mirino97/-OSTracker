@@ -16,6 +16,11 @@ Route::get('/{id}/delete', 'ClientesController@destroy');
 Route::patch('/{id}/update', 'ClientesController@update');
 Route::post('/create', 'ClientesController@create');
 
+Route::get('/perfil', 'UserController@perfil');
+Route::post('/perfil', 'UserController@novoAvatar');
+
+Route::post('/{ordem}/novoComentario', 'ComentarioController@create');
+
 Route::post('/{id}/ordem/new', 'OrdensController@store');
 Route::get('/{id}/delete/ordem', 'OrdensController@destroy');
 Route::get('/{ordem}/ordemEdit', 'OrdensController@edit');
