@@ -43,10 +43,22 @@
 
 <hr>
 
-@if($ordem->comentarios !== 'null')
-	@foreach($ordem->comentarios as $comentario)
-	 {{$comentario}}
-	@endforeach
-@endif
-
+@foreach($ordem->comentarios as $comentario)
+@php
+ $teste = ConsultaUser::ConsultarUser($comentario->userId);
+@endphp
+@foreach($teste as $resposta)
+<table>
+	<td>
+		<tr>
+			<img src="/uploads/avatars/{{$resposta['avatar']}}" style="width: 32px; height: 32px; border-radius: 50%;">
+			<input type="text" value="{{$resposta['nome']}}">
+		</tr>
+		<tr>
+			<input type="text" value="{{$comentario['comentario']}}">
+		</tr>
+ 	</td>
+</table>
+@endforeach
+@endforeach
 @endsection

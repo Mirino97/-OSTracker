@@ -10,7 +10,6 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
 Route::get('/{id}/edit', 'ClientesController@edit');
 Route::get('/{id}/delete', 'ClientesController@destroy');
 Route::patch('/{id}/update', 'ClientesController@update');

@@ -28,7 +28,7 @@
 	@csrf
 	<h4>Nova Ordem de Serviço</h4>
 	<div class="row">
-		<input class="w-100 rounded p-2 mb-2" type="hidden" name="clientes_id" value="{{ $cliente->id }}">
+		<input class="w-100 rounded p-2 mb-2" type="hidden" name="clientes_id" value="{{ Crypt::encrypt($cliente->id) }}">
 		<div class="col-12"><input class="w-100 rounded p-2 mb-2" type="text" name="servico" placeholder="Serviço Prestado" value="" required></div>
 	</div>
 	<div class="row">

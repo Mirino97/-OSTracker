@@ -18,4 +18,9 @@ class Comentarios extends Model
 
         return $this->hasOne('App\Ordens');
     }
+
+    public function userResp() {
+
+        return $this->hasOne('App\User');
+    }
 }

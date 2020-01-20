@@ -2,8 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Request;;
 use App\Ordens;
+use Illuminate\Support\Facades\Crypt;
 
 class OrdensController extends Controller
 {
@@ -14,6 +15,9 @@ class OrdensController extends Controller
 
     public function store(Ordens $ordens)
     {
+
+        $desencriptar = Crypt::decrypt(request('clientes_id'));
+        Request::merge(['clientes_id' => $desencriptar]);
         $novaOrdem = request()->validate([
 
         	'clientes_id' => 'required',
