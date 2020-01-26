@@ -31,8 +31,8 @@ Route::get('/{id}/delete/equipamento', 'EquipamentosController@destroy');
 Route::get('/{equipamento}/equipamentoEdit', 'EquipamentosController@edit');
 Route::patch('/{equipamento}/equipamentoUpdate', 'EquipamentosController@update');
 
-Route::get('/test', 'GCalendarController@getClient');
-Route::get('/test1', 'GCalendarController@index');
+Route::get('/test', 'GCalendarController@index');
+Route::get('/test2', 'GCalendarController@getClient');
 
 Auth::routes();
 Route::get('/', 'HomeController@index')->name('home');
