@@ -520,25 +520,10 @@
 	"buffers":
 	[
 		{
-			"contents": "<?php\nrequire __DIR__ . '/public_html/vendor/autoload.php';\n\nif (php_sapi_name() != 'cli') {\n    throw new Exception('This application must be run on the command line.');\n}\n\n/**\n * Returns an authorized API client.\n * @return Google_Client the authorized client object\n */\nfunction getClient()\n{\n    $client = new Google_Client();\n    $client->setApplicationName('Google Calendar API PHP Quickstart');\n    $client->setScopes(Google_Service_Calendar::CALENDAR_READONLY);\n    $client->setAuthConfig('credentials.json');\n    $client->setAccessType('offline');\n    $client->setPrompt('select_account consent');\n\n    // Load previously authorized token from a file, if it exists.\n    // The file token.json stores the user's access and refresh tokens, and is\n    // created automatically when the authorization flow completes for the first\n    // time.\n    $tokenPath = 'token.json';\n    if (file_exists($tokenPath)) {\n        $accessToken = json_decode(file_get_contents($tokenPath), true);\n        $client->setAccessToken($accessToken);\n    }\n\n    // If there is no previous token or it's expired.\n    if ($client->isAccessTokenExpired()) {\n        // Refresh the token if possible, else fetch a new one.\n        if ($client->getRefreshToken()) {\n            $client->fetchAccessTokenWithRefreshToken($client->getRefreshToken());\n        } else {\n            // Request authorization from the user.\n            $authUrl = $client->createAuthUrl();\n            printf(\"Open the following link in your browser:\\n%s\\n\", $authUrl);\n            print 'Enter verification code: ';\n            $authCode = trim(fgets(STDIN));\n\n            // Exchange authorization code for an access token.\n            $accessToken = $client->fetchAccessTokenWithAuthCode($authCode);\n            $client->setAccessToken($accessToken);\n\n            // Check to see if there was an error.\n            if (array_key_exists('error', $accessToken)) {\n                throw new Exception(join(', ', $accessToken));\n            }\n        }\n        // Save the token to a file.\n        if (!file_exists(dirname($tokenPath))) {\n            mkdir(dirname($tokenPath), 0700, true);\n        }\n        file_put_contents($tokenPath, json_encode($client->getAccessToken()));\n    }\n    return $client;\n}\n\n\n// Get the API client and construct the service object.\n$client = getClient();\n$service = new Google_Service_Calendar($client);\n\n// Print the next 10 events on the user's calendar.\n$calendarId = 'primary';\n$optParams = array(\n  'maxResults' => 10,\n  'orderBy' => 'startTime',\n  'singleEvents' => true,\n  'timeMin' => date('c'),\n);\n$results = $service->events->listEvents($calendarId, $optParams);\n$events = $results->getItems();\n\nif (empty($events)) {\n    print \"No upcoming events found.\\n\";\n} else {\n    print \"Upcoming events:\\n\";\n    foreach ($events as $event) {\n        $start = $event->start->dateTime;\n        if (empty($start)) {\n            $start = $event->start->date;\n        }\n        printf(\"%s (%s)\\n\", $event->getSummary(), $start);\n    }\n}",
-			"file": "connection.php",
-			"file_size": 3009,
-			"file_write_time": 132244496685771741,
+			"file": "app/Http/Controllers/ClientesController.php",
 			"settings":
 			{
-				"buffer_size": 3021,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "<?php\n\nnamespace App\\Http\\Controllers;\n\nuse Google_Client;\nuse Google_Service_Calendar;\nuse Session;\nuse Illuminate\\Http\\Request;\n\nclass GCalendarController extends Controller\n{\n    public function index () {\n\n    \t// Utiliza o getClient (presente no mesmo controller, por isso o self::) e salva as informações\n    \t$client = self::getClient();\n    \t// Força o $client em um array\n    \t$teste = (array) $client;\n    \t// Continuar daqui\n    \tdd($teste);\n    \t$client2 = new Google_Client($teste);\n    \t$service = new Google_Service_Calendar($client2);\n\n    \t$calendarId = 'primary';\n    \t$optParams = array('maxResults' => 10, 'orderBy' => 'startTime', 'singleEvents' => true, 'timeMin' => date('c'), );\n\n    \t$results = $service->events->listEvents($calendarId, $optParams);\n    \t$events = $results->getItems();\n\n    \tif (empty($events)) {\n\t\t\t    print \"No upcoming events found.\\n\";\n\t\t\t} else {\n\t\t\t  echo \"Upcoming events:\\n\";\n\t\t\t  foreach ($events as $event) {\n\t\t\t  $start = $event->start->dateTime;\n\t\t\t        if (empty($start)) {\n\t\t\t            $start = $event->start->date;\n\t\t\t        }\n\t\t\t        echo($event->getSummary());\n\t\t\t    }\n\t\t\t}\n    }\n\n    public function getClient() {\n\n    \t// Cria uma nova instância de Google_Client\n\t    $client = new Google_Client();\n\t    // Puxa as informações do .json e joga no $client (.json retirado do painel Google Cloud Platform)\n\t    $client->setAuthConfig('../public/client_credentials.json');\n\t    // Nomeia a Aplicação\n\t    $client->setApplicationName('Google Calendar OSTracker');\n\t    // Diz ao API o que você irá acessar\n\t    $client->setScopes([Google_Service_Calendar::CALENDAR_READONLY, \"email\"]);\n\t    // Qual URI o API deve esperar retornar\n\t    $client->setRedirectUri('http://127.0.0.1:8000/test');\n\t    $client->setAccessType(\"offline\");\n\n\t    // Cria um caminho para salvar o token localmente (para não ter que ficar pedindo toda vez que o usuário precisar)\n\t    $tokenPath = 'token.json';\n\n\t    //Checa se o arquivo existe. Caso sim, decodifique o arquivo, pegue seu conteúdo e salve-o no client.\n    \tif (file_exists($tokenPath)) {\n\t        $accessToken = json_decode(file_get_contents($tokenPath), true);\n\t        $client->setAccessToken($accessToken);\n    \t}\n\n    \t// Caso o token de acesso expirar, crie um novo.\n    \tif ($client->isAccessTokenExpired()){\n    \t\tif ($client->getRefreshToken()){\n    \t\t\t$client->fetchAccessTokenWithRefreshToken($client->getRefreshToken());\n    \t\t}\n\n    \t} else {\n\n    \t\t// Cria um URL de autenticação\n    \t\t$auth_url = $client->createAuthUrl();\n    \t\t// Gera o botão para acessar URL\n    \t\techo \"<a href='$auth_url'> Login </a>\";\n    \t\t// Salva o código na variável $code (analisar mais de perto)\n    \t\t$code = isset($_GET['code']) ? $_GET['code'] : NULL;\n\n\n    \t\t// Salva o token após utilizar o $code e salva no client\n    \t\t$accessToken = $client->fetchAccessTokenWithAuthCode($code);\n    \t\t$client->setAccessToken($accessToken);\n\n    \t\t// Analisa se existem erros e se sim, cria um novo Exception\n    \t\tif (array_key_exists('error', $accessToken)) {\n    \t\t\tthrow new Exception(join(', ', $accessToken));\n    \t\t}\n    \t}\n\n    \t// Caso o arquivo de token não exista, criar um novo \n    \tif (!file_exists(dirname($tokenPath))) {\n    \t\tmkdir(dirname($tokenPath), 0700, true);\n    \t}\n\n    \t// Salvar o token do $client no arquivo de tokens e enncripá-lo\n    \tfile_put_contents($tokenPath, json_encode($client->getAccessToken()));\n    \treturn $client;\n    }\n}\n",
-			"file": "app/Http/Controllers/GCalendarController.php",
-			"file_size": 2496,
-			"file_write_time": 132244739368189458,
-			"settings":
-			{
-				"buffer_size": 3457,
+				"buffer_size": 1617,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -548,15 +533,6 @@
 			"settings":
 			{
 				"buffer_size": 2220,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "routes/web.php",
-			"settings":
-			{
-				"buffer_size": 1634,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -783,10 +759,18 @@
 		"/home/julio/Documents/www/ostracker.com.br.local/public_html/app/Http",
 		"/home/julio/Documents/www/ostracker.com.br.local/public_html/app/Http/Controllers",
 		"/home/julio/Documents/www/ostracker.com.br.local/public_html/public",
-		"/home/julio/Documents/www/ostracker.com.br.local/public_html/resources"
+		"/home/julio/Documents/www/ostracker.com.br.local/public_html/resources",
+		"/home/julio/Documents/www/ostracker.com.br.local/public_html/resources/views",
+		"/home/julio/Documents/www/ostracker.com.br.local/public_html/routes"
 	],
 	"file_history":
 	[
+		"/home/julio/Documents/www/ostracker.com.br.local/public_html/connection.php",
+		"/home/julio/Documents/www/ostracker.com.br.local/public_html/routes/web.php",
+		"/home/julio/Documents/www/ostracker.com.br.local/public_html/resources/views/index.blade.php",
+		"/home/julio/Documents/www/ostracker.com.br.local/public_html/config/mail.php",
+		"/home/julio/Documents/www/ostracker.com.br.local/public_html/.env",
+		"/home/julio/Documents/www/ostracker.com.br.local/public_html/app/Http/Controllers/GCalendarController.php",
 		"/home/julio/Documents/www/ostracker.com.br.local/public_html/public/token.json",
 		"/home/julio/Documents/www/ostracker.com.br.local/public_html/app/Http/Controllers/ComentarioController.php",
 		"/home/julio/Documents/www/ostracker.com.br.local/public_html/app/Http/Controllers/EquipamentosController.php",
@@ -795,9 +779,7 @@
 		"/home/julio/Documents/www/ostracker.com.br.local/public_html/resources/views/layout.blade.php",
 		"/home/julio/Documents/www/ostracker.com.br.local/public_html/resources/views/layouts/app.blade.php",
 		"/home/julio/Documents/www/ostracker.com.br.local/public_html/resources/views/auth/login.blade.php",
-		"/home/julio/Documents/www/ostracker.com.br.local/public_html/routes/web.php",
 		"/home/julio/Documents/www/ostracker.com.br.local/public_html/resources/views/auth/register.blade.php",
-		"/home/julio/Documents/www/ostracker.com.br.local/public_html/.env",
 		"/home/marneimax/Documents/ag3/eduportas7.com.br.local/public_html/inc/pdo.php",
 		"/home/marneimax/Documents/ag3/ostreco/.env",
 		"/home/marneimax/Documents/ag3/ostreco/resources/views/editar.blade.php",
@@ -910,15 +892,11 @@
 		"/home/marneimax/Documents/ag3/oo/inc/model.php",
 		"/home/marneimax/Documents/ag3/susexy.com.br.local/app/Http/Controllers/Controller.php",
 		"/home/marneimax/Documents/ag3/susexy.com.br.local/app/Http/Kernel.php",
-		"/home/marneimax/Documents/ag3/susexy.com.br.local/app/User.php",
-		"/home/marneimax/Downloads/Conversa do WhatsApp com CLIWEB CD Gus.txt",
-		"/home/marneimax/Documents/ag3/classydog.com.br.local/public_html/public/img/icon_layout_subir_branco.png",
-		"/home/marneimax/Documents/ag3/classydog.com.br.local/public_html/public/viewerjs/index.html",
-		"/home/marneimax/Documents/ag3/classydog.com.br.local/public_html/public/photoswipe/photoswipe.html"
+		"/home/marneimax/Documents/ag3/susexy.com.br.local/app/User.php"
 	],
 	"find":
 	{
-		"height": 40.0
+		"height": 26.0
 	},
 	"find_in_files":
 	{
@@ -1006,24 +984,24 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "connection.php",
+					"file": "app/Http/Controllers/ClientesController.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3021,
+						"buffer_size": 1617,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								335,
-								335
+								1119,
+								1119
 							]
 						],
 						"settings":
@@ -1033,42 +1011,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/Http/Controllers/GCalendarController.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3457,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								435,
-								435
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 51.0,
+						"translation.y": 408.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 1,
 					"file": "resources/views/index.blade.php",
 					"semi_transient": false,
 					"settings":
@@ -1080,42 +1030,14 @@
 						"selection":
 						[
 							[
-								2208,
-								2208
+								1049,
+								1049
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
 							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 408.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "routes/web.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1634,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1504,
-								1504
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 153.0,

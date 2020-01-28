@@ -43,7 +43,6 @@ class ClientesController extends Controller
                 break;
             }
         }
-
         return redirect('/');
 
     }
