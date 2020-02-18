@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"inline",
+				"inline-flex\tdisplay"
+			],
+			[
+				"di",
+				"divbutton"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
 				"array_key",
 				"array_key_exists"
 			],
@@ -66,10 +78,6 @@
 			[
 				"round",
 				"rounded \tBootstrap 4 Class"
-			],
-			[
-				"di",
-				"d-inline \tBootstrap 4 Class"
 			],
 			[
 				"align",
@@ -506,14 +514,6 @@
 			[
 				"align-co",
 				"align-content-center \tBootstrap 4 Class"
-			],
-			[
-				"d",
-				"d-flex \tBootstrap 4 Class"
-			],
-			[
-				"wi",
-				"width\tproperty"
 			]
 		]
 	},
@@ -524,6 +524,24 @@
 			"settings":
 			{
 				"buffer_size": 1617,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/editarOrdem.blade.php",
+			"settings":
+			{
+				"buffer_size": 2947,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/css/bootstrap.css",
+			"settings":
+			{
+				"buffer_size": 194552,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -756,15 +774,20 @@
 	[
 		"/home/julio/Documents/www/ostracker.com.br.local/public_html",
 		"/home/julio/Documents/www/ostracker.com.br.local/public_html/app",
+		"/home/julio/Documents/www/ostracker.com.br.local/public_html/app/Classes",
 		"/home/julio/Documents/www/ostracker.com.br.local/public_html/app/Http",
 		"/home/julio/Documents/www/ostracker.com.br.local/public_html/app/Http/Controllers",
 		"/home/julio/Documents/www/ostracker.com.br.local/public_html/public",
+		"/home/julio/Documents/www/ostracker.com.br.local/public_html/public/css",
 		"/home/julio/Documents/www/ostracker.com.br.local/public_html/resources",
 		"/home/julio/Documents/www/ostracker.com.br.local/public_html/resources/views",
 		"/home/julio/Documents/www/ostracker.com.br.local/public_html/routes"
 	],
 	"file_history":
 	[
+		"/home/julio/Documents/www/ostracker.com.br.local/public_html/app/Clientes.php",
+		"/media/julio/DADOS/Mirino/RS.txt",
+		"/media/julio/Win1064/SWEDA.TXT",
 		"/home/julio/Documents/www/ostracker.com.br.local/public_html/connection.php",
 		"/home/julio/Documents/www/ostracker.com.br.local/public_html/routes/web.php",
 		"/home/julio/Documents/www/ostracker.com.br.local/public_html/resources/views/index.blade.php",
@@ -889,10 +912,7 @@
 		"/home/marneimax/Documents/ag3/classydog.com.br.local/public_html/resources/views/components/galeria-sobre.blade.php",
 		"/home/marneimax/Documents/ag3/susexy.com.br.local/app/Http/Controllers/PagesController.php",
 		"/home/marneimax/Documents/ag3/oo/inc/Conteudo.php",
-		"/home/marneimax/Documents/ag3/oo/inc/model.php",
-		"/home/marneimax/Documents/ag3/susexy.com.br.local/app/Http/Controllers/Controller.php",
-		"/home/marneimax/Documents/ag3/susexy.com.br.local/app/Http/Kernel.php",
-		"/home/marneimax/Documents/ag3/susexy.com.br.local/app/User.php"
+		"/home/marneimax/Documents/ag3/oo/inc/model.php"
 	],
 	"find":
 	{
@@ -910,6 +930,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"h1",
+			"tr",
+			"td",
 			"class=\"p-3 ",
 			"<div class=\"mb-3\">",
 			"<div>",
@@ -984,7 +1007,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -1000,8 +1023,8 @@
 						"selection":
 						[
 							[
-								1119,
-								1119
+								196,
+								196
 							]
 						],
 						"settings":
@@ -1011,14 +1034,73 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 408.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "resources/views/editarOrdem.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2947,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2584,
+								2584
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 765.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
+					"buffer": 2,
+					"file": "public/css/bootstrap.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 194552,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1216,
+								1216
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 459.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
 					"file": "resources/views/index.blade.php",
 					"semi_transient": false,
 					"settings":
@@ -1040,7 +1122,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 153.0,
+						"translation.y": 408.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,

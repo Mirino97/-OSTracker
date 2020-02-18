@@ -32,13 +32,14 @@
 		<div class="col-4"><input class="w-100 bg-success border-0 rounded p-2 mb-2" type="submit" name="button" value="Atualizar" class="btn bg-success" style="color: white"></div>
 	</div>
 </form>
-
+<hr>
+<h4>Lista de Comentários</h4>
 <form method="POST" action="/{{$ordem->id}}/novoComentario">
 	@csrf
 	<input type="hidden" name="ordemId" value="{{$ordem->id}}">
 	<input type="hidden" name="userId" value="{{Auth::user()->id}}">
 	<textarea name="comentario"></textarea>
-	<input type="submit">
+	<input type="submit" value="Enviar Comentário">
 </form>
 
 <hr>
@@ -49,15 +50,21 @@
 @endphp
 @foreach($teste as $resposta)
 <table>
-	<td>
-		<tr>
-			<img src="/uploads/avatars/{{$resposta['avatar']}}" style="width: 32px; height: 32px; border-radius: 50%;">
-			<input type="text" value="{{$resposta['nome']}}">
-		</tr>
-		<tr>
-			<input type="text" value="{{$comentario['comentario']}}">
-		</tr>
- 	</td>
+	<tr>
+		<td><img src="/uploads/avatars/{{$resposta['avatar']}}" style="width: 32px; height: 32px; border-radius: 50%;">
+		<input readonly type="text" value="{{$resposta['nome']}}"></td>
+		<td>{{$comentario->created_at}}</td>
+ 	</tr>
+ 	<tr>
+		<td>
+ 			<div class="divbutton">
+	 			<input readonly type="text" value="{{$comentario['comentario']}}" style="width: 100ex; height: 200px;">
+	 			@if(Auth::user()->id == $comentario->userId)
+					<button type="button" class="buttonComentario">EDITAR COMENTÁRIO</button>
+				@endif
+			</div>
+	 	</td>
+ 	</tr>
 </table>
 @endforeach
 @endforeach

@@ -35,6 +35,21 @@
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+.divbutton {
+    height: 15em;
+    width: 15em;
+}
+
+.buttonComentario {
+    display: none;
+}
+
+.divbutton:hover .buttonComentario {
+    display: inline-table;
+    bottom: 0;
+    right: 0;
+}
+
 #container {
   display: inline-flex;
   height: 100%;
